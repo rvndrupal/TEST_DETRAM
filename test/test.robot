@@ -66,10 +66,20 @@ CC001 TRAMITES-0T4 (TRAMITES 018 A)
 
     Click  //select[@formcontrolname='actividadServicio']
     Click  //option[contains(text(),'ELABORADOR POR MAQUILA')]
+    Click  //select[contains(@formcontrolname,'materiaProducto')]
+    Click   //option[contains(text(),'SALES PURAS ANTIMICROBIANAS')]
+    Click   //select[contains(@ng-reflect-name,'funcion')]
+    Click   //option[contains(text(),'ALMACENAR')]
+    Dormir  1
+    Click   //option[contains(text(),'ALMACENAR')]
+    Click   (//button[@class='btn btn-primary'][contains(.,'Agregar')])[1]
+    Scroll  0  1200
+    Resultado  .3  ${dir}/Actividad_económica.png  Actividad OK
 
 
 
-    Dormir  4
+
+    Dormir  2
     
     
     
