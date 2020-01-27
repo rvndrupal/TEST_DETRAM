@@ -3,8 +3,9 @@ Documentation   Casos de Prueba  CC-04-2019-AMTIF-OT04
 Library     String
 Library     ScreenCapLibrary
 Resource    ./recursos.robot
+Resource    ./casos.robot
 
-#robot -d resultados  test.robot
+#robot -d resultados -i tg01 tg test.robot
 
 ***Variables***
 ${url}          http://10.16.3.29/login/init
@@ -17,7 +18,8 @@ ${rfc}      VINR770919LC8
 
 *** Test Cases ***
 CC001 TRAMITES-0T4 (TRAMITES 018 A)
-    [Documentation]    PRUEBA TRAMITE 018 A   
+    [Documentation]    PRUEBA TRAMITE 018 A  
+    [Tags]      tg01 
     #Video Iniciar 
     Esperar Iniciar ok    5
     Dormir Todos  ${tiempo}
@@ -76,17 +78,14 @@ CC001 TRAMITES-0T4 (TRAMITES 018 A)
     Scroll  0  1200
     Resultado  .3  ${dir}/Actividad_económica.png  Actividad OK
 
+    Datos Domicilio Fiscal
+  
+    Domicilio de la Planta
+    
 
-
-
-    Dormir  2
     
     
     
-    
-
-
-    Resultado  1  ${dir}/Curp.png  CURP y RFC OK
 
 
 

@@ -1,5 +1,6 @@
 ***Settings***
 Library     SeleniumLibrary
+#Library     Selenium2Library
 Library     String
 
 ***Variables***
@@ -78,12 +79,12 @@ Texto Vacio
 
 
 Obtener
-    [Arguments]    ${arg1}  
-    Get Value   xpath=${arg1}    
+    [Arguments]    ${xpath}  
+    Get Value   xpath=${xpath}    
 
 Obtener dos
-    [Arguments]    ${arg1}  
-    Wait Until Page Contains  Hello   xpath=${arg1}    
+    [Arguments]    ${texto}  
+    Wait Until Page Contains    ${texto}    
 
 
 Titulo
@@ -179,6 +180,9 @@ Resultado
     sleep       ${tiempo}   
     Capture Page Screenshot     ${dir}
     log to console    ${print} 
+
+Tabulador
+    Press Keys    TAB   '\ue004'
 
 
 
