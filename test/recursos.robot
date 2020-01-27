@@ -103,6 +103,10 @@ Print
     [Arguments]    ${arg1}
     log to console    ${arg1} 
 
+Print Variable
+    [Arguments]    ${var}
+    Log    ${var} 
+
 Esperar Objeto
     [Arguments]    ${arg1}
     Wait Until Page Contains    ${arg1} 
