@@ -83,12 +83,17 @@ Manipulate current time
 Aleatorio Curp
     ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
     ${datetime} =	Convert Date  ${CurrentDate}  datetime
-    [Return]     VINR770919HDFLTD${datetime.microsecond}
+    ${tex} =    Generate Random String  2  [UPPER]
+    ${num} =    Generate Random String  2  [NUMBERS]
+    [Return]     VINR770919HDflTD${num}
+    
 
 Aleatorio rfc
     ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
     ${datetime} =	Convert Date  ${CurrentDate}  datetime
-    [Return]     VINR770919L${datetime.microsecond}
+    ${tex} =    Generate Random String  1  [UPPER]
+    ${num} =    Generate Random String  2  [NUMBERS]    
+    [Return]     VINR770919${tex}${datetime.microsecond}
 
 
 Login

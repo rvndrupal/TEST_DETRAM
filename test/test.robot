@@ -34,6 +34,7 @@ ${Cer}      C:\\vinr770919lc8.cer
 CC001 TRAMITES-0T4 (TRAMITES 018 A)
     [Documentation]    PRUEBA TRAMITE 018 A  
     [Tags]      tg01 
+ 
     Login
 
     Tramite
@@ -59,22 +60,7 @@ CC001 TRAMITES-0T4 (TRAMITES 018 A)
     Con firma
 
 
-
-
-
-
-    
-
-
-
-    
-
-    
-
-    
-
-
-    Dormir  6
+    Dormir  3
 
     #Video Finalizar
     Cerrar
