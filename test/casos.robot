@@ -6,12 +6,29 @@ Library     BuiltIn
 
 
 ***Variables****
-${curp1}
+${curp}
+${rfc}
 ${pdf1}     C:\\pdf\\pdf1.pdf
 ${pdf2}     C:\\pdf\\pdf2.pdf
 
 
 ***Keywords***
+Aleatorio Curp
+    ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
+    ${datetime} =	Convert Date  ${CurrentDate}  datetime
+    ${tex} =    Generate Random String  2  [UPPER]
+    ${num} =    Generate Random String  2  [NUMBERS]
+    [Return]     VINR770919HDflTD${num}
+    
+
+Aleatorio rfc
+    ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
+    ${datetime} =	Convert Date  ${CurrentDate}  datetime
+    ${text} =    Generate Random String  2  [UPPER]
+    ${num} =    Generate Random String  1  [NUMBERS]       
+    [Return]     VINR800718${text}${num}
+
+
 Datos Domicilio Fiscal
     Texto  (//input[contains(@formcontrolname,'codigoPostal')])[1]  53200
     Scroll  0   1400
@@ -80,20 +97,8 @@ Manipulate current time
     Log	 ${datetime.second}
     Log	 ${datetime.microsecond}
 
-Aleatorio Curp
-    ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
-    ${datetime} =	Convert Date  ${CurrentDate}  datetime
-    ${tex} =    Generate Random String  2  [UPPER]
-    ${num} =    Generate Random String  2  [NUMBERS]
-    [Return]     VINR770919HDflTD${num}
-    
 
-Aleatorio rfc
-    ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
-    ${datetime} =	Convert Date  ${CurrentDate}  datetime
-    ${tex} =    Generate Random String  1  [UPPER]
-    ${num} =    Generate Random String  2  [NUMBERS]    
-    [Return]     VINR770919${tex}${datetime.microsecond}
+    
 
 
 Login
@@ -120,16 +125,16 @@ Tramite
     Click  //select[@formcontrolname='tipoPersona']
 
 Datos Personales
+    [Arguments]     ${arg1}
     ${curp} =  Aleatorio Curp
-    ${rfc} =   Aleatorio rfc
     Click  //*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]
     Texto  (//input[contains(@formcontrolname,'curp')])[1]     ${curp}   
     Scroll  0  400
     Dormir  .2
-    Texto  //input[@formcontrolname='rfc']          ${rfc}
+    Texto  //input[@formcontrolname='rfc']          ${arg1}
     Dormir   1
-    Texto  //input[@formcontrolname='rfc']          ${rfc}
-    Dormir  .2
+    Texto  //input[@formcontrolname='rfc']          ${arg1}
+    Dormir  3
     Texto  (//input[@type='text'])[3]    YENNYELY NICOLE
     Dormir  .2
     Texto  //input[@formcontrolname='primerApellido']   MONTENEGRO
