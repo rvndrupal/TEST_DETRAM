@@ -15,7 +15,10 @@ ${dir}      Img
 
 ***Keywords***
 Abrir navegador
-    Open Browser    ${url}   ${navegador}
+    [Arguments]     ${arg1}   ${arg2}
+    Open Browser    ${arg1}   ${arg2}
+
+
 
 Abrir navegador2
     Open Browser    ${url2}   ${navegador}

@@ -15,7 +15,6 @@ Library     FakerLibrary
 #robot -d resultados  tes*.robot
 #pabot --processes 20 --outputdir resultados_uno  TEST/test*.robot
 
-
 ***Variables***
 ${url}          http://10.16.3.29/login/init
 ${navegador}    chrome
@@ -38,7 +37,7 @@ Aleatorio claverfc
     ${text} =    Generate Random String  2  [UPPER]
     ${inc} =    Generate Random String  3  [UPPER]
     ${num} =    Generate Random String  1  [NUMBERS]            
-    [Return]     ${inc}B740918${text}${num}
+    [Return]     ${inc}A760918${text}${num}
 
 Aleatorio claverfc2
     ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
@@ -46,22 +45,14 @@ Aleatorio claverfc2
     ${text} =    Generate Random String  2  [UPPER]
     ${inc} =    Generate Random String  3  [UPPER]
     ${num} =    Generate Random String  1  [NUMBERS]            
-    [Return]     ${inc}B620918${text}${num}
-
-Aleatorio Curp
-    ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
-    ${datetime} =	Convert Date  ${CurrentDate}  datetime
-    ${tex} =    Generate Random String  2  [UPPER]
-    ${num} =    Generate Random String  2  [NUMBERS]
-    [Return]     VINB710919HDflTD${num}
+    [Return]     ${inc}A610918${text}${num}
     	
     
 
 *** Test Cases ***
 CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME)
     [Documentation]    PRUEBA TRAMITE 018 A  
-    [Tags]      tg01   
-    Esperar Iniciar ok    15  
+    [Tags]      tg01     
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 

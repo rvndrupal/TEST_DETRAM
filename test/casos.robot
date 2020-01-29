@@ -12,19 +12,7 @@ ${pdf1}     C:\\pdf\\pdf1.pdf
 ${pdf2}     C:\\pdf\\pdf2.pdf
 
 
-***Keywords***
-Aleatorio Curp
-    ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
-    ${datetime} =	Convert Date  ${CurrentDate}  datetime
-    ${tex} =    Generate Random String  2  [UPPER]
-    ${num} =    Generate Random String  2  [NUMBERS]
-    [Return]     VINR770919HDflTD${num}
-    
-
-
-
-
-
+***Keywords***  
 
 Datos Domicilio Fiscal
     Texto  (//input[contains(@formcontrolname,'codigoPostal')])[1]  53200
@@ -65,8 +53,9 @@ Datos del Representante Legal
     Scroll  0  2250
     Texto  (//input[contains(@placeholder,'Clave Única de Registro de Población')])[2]  ${curp}
     Texto  (//input[@placeholder='Registro Federal de Contribuyentes'])[2]  ${arg1}
-    Dormir      1
+    Dormir      2
     Texto  (//input[@placeholder='Registro Federal de Contribuyentes'])[2]  ${arg1}
+    Dormir      2
     Texto  (//input[contains(@type,'text')])[32]  Maribel
     Texto   (//input[@maxlength='50'])[7]   Chavez
     Texto  (//input[contains(@maxlength,'50')])[8]  Garcia
@@ -99,10 +88,11 @@ Manipulate current time
 
 
 Login
+    [Arguments]     ${arg1}     ${arg2}
      #Video Iniciar 
     Esperar Iniciar ok    5
     Dormir Todos  ${tiempo}
-    Abrir navegador    
+    Abrir navegador  ${arg1}   ${arg2}  
     Maximizar 
     Scroll  0  200
     Resultado  .5  ${dir}/Login.png  Pantalla Login Ok
@@ -122,15 +112,15 @@ Tramite
     Click  //select[@formcontrolname='tipoPersona']
 
 Datos Personales
-    [Arguments]     ${arg1}
+    [Arguments]     ${claverfc}
     ${curp} =  Aleatorio Curp
     Click  //*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]
     Texto  (//input[contains(@formcontrolname,'curp')])[1]     ${curp}   
     Scroll  0  400
     Dormir  .2
-    Texto  //input[@formcontrolname='rfc']          ${arg1}
-    Dormir   1
-    Texto  //input[@formcontrolname='rfc']          ${arg1}
+    Texto  //input[@formcontrolname='rfc']          ${claverfc}
+    Dormir   2
+    Texto  //input[@formcontrolname='rfc']          ${claverfc}
     Dormir  3
     Texto  (//input[@type='text'])[3]    YENNYELY NICOLE
     Dormir  .2
