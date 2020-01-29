@@ -21,12 +21,9 @@ Aleatorio Curp
     [Return]     VINR770919HDflTD${num}
     
 
-Aleatorio rfc
-    ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
-    ${datetime} =	Convert Date  ${CurrentDate}  datetime
-    ${text} =    Generate Random String  2  [UPPER]
-    ${num} =    Generate Random String  1  [NUMBERS]       
-    [Return]     VINR800718${text}${num}
+
+
+
 
 
 Datos Domicilio Fiscal
@@ -63,13 +60,13 @@ Domicilio del Almacen
 
 
 Datos del Representante Legal
+    [Arguments]     ${arg1}
     ${curp} =  Aleatorio Curp
-    ${rfc} =   Aleatorio rfc
     Scroll  0  2250
     Texto  (//input[contains(@placeholder,'Clave Única de Registro de Población')])[2]  ${curp}
-    Texto  (//input[@placeholder='Registro Federal de Contribuyentes'])[2]  ${rfc}
+    Texto  (//input[@placeholder='Registro Federal de Contribuyentes'])[2]  ${arg1}
     Dormir      1
-    Texto  (//input[@placeholder='Registro Federal de Contribuyentes'])[2]  ${rfc}
+    Texto  (//input[@placeholder='Registro Federal de Contribuyentes'])[2]  ${arg1}
     Texto  (//input[contains(@type,'text')])[32]  Maribel
     Texto   (//input[@maxlength='50'])[7]   Chavez
     Texto  (//input[contains(@maxlength,'50')])[8]  Garcia

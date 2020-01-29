@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test1                                                                  
+==============================================================================
+CC001 TRAMITES-0T4 (TRAMITES 018 A) :: PRUEBA TRAMITE 018 A           | FAIL |
+No keyword with name 'Aleatorio rfc' found.
+------------------------------------------------------------------------------
+Suites.Test1                                                          | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Test_detram\resultados\pabot_results\Suites.Test1\output.xml

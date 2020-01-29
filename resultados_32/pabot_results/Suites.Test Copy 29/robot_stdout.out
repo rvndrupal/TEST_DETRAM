@@ -1,0 +1,22 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Copy 29 :: Casos de Prueba CC-04-2019-AMTIF-OT04                  
+==============================================================================
+CC001 TRAMITES-0T4 (TRAMITES 018 A) :: PRUEBA TRAMITE 018 A           Pantalla Login Ok
+Se introducen los datos para el Login
+Carga los resultados
+Datos Personales Ok
+| FAIL |
+InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=79.0.3945.130)
+------------------------------------------------------------------------------
+Suites.Test Copy 29 :: Casos de Prueba CC-04-2019-AMTIF-OT04          | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Test_detram\resultados_32\pabot_results\Suites.Test Copy 29\output.xml

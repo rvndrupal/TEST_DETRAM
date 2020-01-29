@@ -12,6 +12,7 @@ Library     FakerLibrary
 #robot -d resultados -i tg01  test.robot
 #Vinr770919hdfltd00
 #robot -d resultados  tes*.robot
+#pabot --processes 20 --outputdir resultados_uno  TEST/test*.robot
 
 ***Variables***
 ${url}          http://10.16.3.29/login/init
@@ -27,6 +28,14 @@ ${pdf2}     C:\\pdf\\pdf2.pdf
       
 ${key}      C:\\ClavePrivada.key
 ${Cer}      C:\\vinr770919lc8.cer
+
+*** Keywords ***
+Aleatorio rfc
+    ${CurrentDate}=  Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
+    ${datetime} =	Convert Date  ${CurrentDate}  datetime
+    ${text} =    Generate Random String  2  [UPPER]
+    ${num} =    Generate Random String  1  [NUMBERS]       
+    [Return]     VINR820818${text}${num}
     	
     
 
@@ -53,7 +62,7 @@ CC001 TRAMITES-0T4 (TRAMITES 018 A)
 
     Domicilio del Almacen
 
-    Datos del Representante Legal
+    Datos del Representante Legal    ${rfc}
 
     Clave del medico veterinario
 

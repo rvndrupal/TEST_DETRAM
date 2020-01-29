@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200128 16:44:32.525" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test1" source="C:\Test_detram\TEST\test1.robot">
+<test id="s1-s1-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)">
+<kw name="Aleatorio rfc">
+<assign>
+<var>${rfc} =</var>
+</assign>
+<msg timestamp="20200128 16:44:32.552" level="FAIL">No keyword with name 'Aleatorio rfc' found.</msg>
+<status status="FAIL" starttime="20200128 16:44:32.552" endtime="20200128 16:44:32.552"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="FAIL" starttime="20200128 16:44:32.550" endtime="20200128 16:44:32.552" critical="yes">No keyword with name 'Aleatorio rfc' found.</status>
+</test>
+<status status="FAIL" starttime="20200128 16:44:32.549" endtime="20200128 16:44:32.553"></status>
+</suite>
+<status status="FAIL" starttime="20200128 16:44:32.527" endtime="20200128 16:44:32.554"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">tg01</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Test1">Suites.Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

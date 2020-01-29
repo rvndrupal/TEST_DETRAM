@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200128 18:10:00.604" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Copy 5" source="C:\Test_detram\TEST\test copy 5.robot">
+<test id="s1-s1-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)">
+<kw name="Aleatorio rfc">
+<assign>
+<var>${rfc}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200128 18:10:05.360" level="INFO">${CurrentDate} = 2020-01-28 18:10:05.359418</msg>
+<status status="PASS" starttime="20200128 18:10:05.358" endtime="20200128 18:10:05.360"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200128 18:10:05.367" level="INFO">${datetime} = 2020-01-28 18:10:05.359418</msg>
+<status status="PASS" starttime="20200128 18:10:05.360" endtime="20200128 18:10:05.367"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20200128 18:10:05.368" level="INFO">${text} = HL</msg>
+<status status="PASS" starttime="20200128 18:10:05.367" endtime="20200128 18:10:05.368"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>1</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200128 18:10:05.368" level="INFO">${num} = 7</msg>
+<status status="PASS" starttime="20200128 18:10:05.368" endtime="20200128 18:10:05.368"></status>
+</kw>
+<msg timestamp="20200128 18:10:05.369" level="INFO">${rfc} = VINR820818HL7</msg>
+<status status="PASS" starttime="20200128 18:10:05.357" endtime="20200128 18:10:05.369"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${rfc}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:05.369" level="INFO">VINR820818HL7</msg>
+<status status="PASS" starttime="20200128 18:10:05.369" endtime="20200128 18:10:05.369"></status>
+</kw>
+<kw name="Login" library="casos">
+<kw name="Esperar Iniciar ok" library="recursos">
+<arguments>
+<arg>5</arg>
+</arguments>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<doc>Sets the timeout that is used by various keywords.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200128 18:10:05.370" endtime="20200128 18:10:05.371"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:05.370" endtime="20200128 18:10:05.371"></status>
+</kw>
+<kw name="Dormir Todos" library="recursos">
+<arguments>
+<arg>${tiempo}</arg>
+</arguments>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200128 18:10:05.391" endtime="20200128 18:10:05.394"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:05.371" endtime="20200128 18:10:05.394"></status>
+</kw>
+<kw name="Abrir navegador" library="recursos">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${navegador}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:05.395" level="INFO">Opening browser 'chrome' to base url 'http://10.16.3.29/login/init'.</msg>
+<status status="PASS" starttime="20200128 18:10:05.395" endtime="20200128 18:10:43.501"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:05.394" endtime="20200128 18:10:43.501"></status>
+</kw>
+<kw name="Maximizar" library="recursos">
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200128 18:10:43.503" endtime="20200128 18:10:52.881"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:43.502" endtime="20200128 18:10:52.881"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>200</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200128 18:10:52.882" level="INFO">Executing JavaScript:
+window.scrollTo(0,200)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200128 18:10:52.882" endtime="20200128 18:10:53.032"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:52.881" endtime="20200128 18:10:53.032"></status>
+</kw>
+<kw name="Resultado" library="recursos">
+<arguments>
+<arg>.5</arg>
+<arg>${dir}/Login.png</arg>
+<arg>Pantalla Login Ok</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${tiempo}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:53.597" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200128 18:10:53.033" endtime="20200128 18:10:53.597"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>${dir}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:54.263" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Login.png"&gt;&lt;img src="Tramites/Login.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200128 18:10:53.598" endtime="20200128 18:10:54.264"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${print}</arg>
+</arguments>
+<status status="PASS" starttime="20200128 18:10:54.264" endtime="20200128 18:10:54.265"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:53.033" endtime="20200128 18:10:54.265"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[contains(@id,'username')]</arg>
+<arg>daniel.badillo</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:54.266" level="INFO">Typing text 'daniel.badillo' into text field 'xpath=//input[contains(@id,'username')]'.</msg>
+<status status="PASS" starttime="20200128 18:10:54.265" endtime="20200128 18:10:55.278"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:54.265" endtime="20200128 18:10:55.279"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[contains(@id,'password')]</arg>
+<arg>test123$</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:55.280" level="INFO">Typing text 'test123$' into text field 'xpath=//input[contains(@id,'password')]'.</msg>
+<status status="PASS" starttime="20200128 18:10:55.279" endtime="20200128 18:10:56.005"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:55.279" endtime="20200128 18:10:56.005"></status>
+</kw>
+<kw name="Resultado" library="recursos">
+<arguments>
+<arg>.5</arg>
+<arg>${dir}/Login_password.png</arg>
+<arg>Se introducen los datos para el Login</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${tiempo}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:56.508" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200128 18:10:56.006" endtime="20200128 18:10:56.508"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>${dir}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:57.318" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Login_password.png"&gt;&lt;img src="Tramites/Login_password.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200128 18:10:56.508" endtime="20200128 18:10:57.319"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${print}</arg>
+</arguments>
+<status status="PASS" starttime="20200128 18:10:57.319" endtime="20200128 18:10:57.319"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:56.005" endtime="20200128 18:10:57.320"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>(//button[@type='button'])[3]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:57.321" level="INFO">Clicking element 'xpath=(//button[@type='button'])[3]'.</msg>
+<status status="PASS" starttime="20200128 18:10:57.320" endtime="20200128 18:10:57.827"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:57.320" endtime="20200128 18:10:57.827"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:58.830" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200128 18:10:57.828" endtime="20200128 18:10:58.830"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:57.827" endtime="20200128 18:10:58.830"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>500</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200128 18:10:58.832" level="INFO">Executing JavaScript:
+window.scrollTo(0,500)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200128 18:10:58.831" endtime="20200128 18:10:58.959"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:58.831" endtime="20200128 18:10:58.959"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:05.370" endtime="20200128 18:10:58.959"></status>
+</kw>
+<kw name="Tramite" library="casos">
+<kw name="Resultado" library="recursos">
+<arguments>
+<arg>.3</arg>
+<arg>${dir}/Carga_resultados.png</arg>
+<arg>Carga los resultados</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${tiempo}</arg>
+</arguments>
+<msg timestamp="20200128 18:10:59.265" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200128 18:10:58.960" endtime="20200128 18:10:59.265"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>${dir}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:00.072" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Carga_resultados.png"&gt;&lt;img src="Tramites/Carga_resultados.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200128 18:10:59.265" endtime="20200128 18:11:00.072"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${print}</arg>
+</arguments>
+<status status="PASS" starttime="20200128 18:11:00.073" endtime="20200128 18:11:00.073"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:58.960" endtime="20200128 18:11:00.073"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>(//a[@href='#'])[1]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:00.074" level="INFO">Clicking element 'xpath=(//a[@href='#'])[1]'.</msg>
+<status status="PASS" starttime="20200128 18:11:00.074" endtime="20200128 18:11:00.401"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:00.073" endtime="20200128 18:11:00.402"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//a[@routerlink='/registraSolicitudTramite/18A/1/init'][contains(.,'Trámite 18A')]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:00.403" level="INFO">Clicking element 'xpath=//a[@routerlink='/registraSolicitudTramite/18A/1/init'][contains(.,'Trámite 18A')]'.</msg>
+<status status="PASS" starttime="20200128 18:11:00.403" endtime="20200128 18:11:01.336"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:00.402" endtime="20200128 18:11:01.336"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>500</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200128 18:11:01.337" level="INFO">Executing JavaScript:
+window.scrollTo(0,500)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200128 18:11:01.337" endtime="20200128 18:11:01.603"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:01.336" endtime="20200128 18:11:01.603"></status>
+</kw>
+<kw name="Resultado" library="recursos">
+<arguments>
+<arg>.2</arg>
+<arg>${dir}/Datos_personales.png</arg>
+<arg>Datos Personales Ok</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${tiempo}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:01.806" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200128 18:11:01.604" endtime="20200128 18:11:01.806"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>${dir}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:03.021" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Datos_personales.png"&gt;&lt;img src="Tramites/Datos_personales.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200128 18:11:01.806" endtime="20200128 18:11:03.021"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${print}</arg>
+</arguments>
+<status status="PASS" starttime="20200128 18:11:03.021" endtime="20200128 18:11:03.022"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:01.604" endtime="20200128 18:11:03.022"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//select[@formcontrolname='tipoPersona']</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:03.023" level="INFO">Clicking element 'xpath=//select[@formcontrolname='tipoPersona']'.</msg>
+<status status="PASS" starttime="20200128 18:11:03.023" endtime="20200128 18:11:03.983"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:03.022" endtime="20200128 18:11:03.984"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:10:58.959" endtime="20200128 18:11:03.984"></status>
+</kw>
+<kw name="Datos Personales" library="casos">
+<arguments>
+<arg>${rfc}</arg>
+</arguments>
+<kw name="Aleatorio Curp" library="casos">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200128 18:11:03.985" level="INFO">${CurrentDate} = 2020-01-28 18:11:03.985029</msg>
+<status status="PASS" starttime="20200128 18:11:03.984" endtime="20200128 18:11:03.985"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200128 18:11:03.986" level="INFO">${datetime} = 2020-01-28 18:11:03.985029</msg>
+<status status="PASS" starttime="20200128 18:11:03.985" endtime="20200128 18:11:03.986"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200128 18:11:03.986" level="INFO">${tex} = WT</msg>
+<status status="PASS" starttime="20200128 18:11:03.986" endtime="20200128 18:11:03.986"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200128 18:11:03.987" level="INFO">${num} = 03</msg>
+<status status="PASS" starttime="20200128 18:11:03.986" endtime="20200128 18:11:03.987"></status>
+</kw>
+<msg timestamp="20200128 18:11:03.987" level="INFO">${curp} = VINR770919HDflTD03</msg>
+<status status="PASS" starttime="20200128 18:11:03.984" endtime="20200128 18:11:03.987"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:03.989" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200128 18:11:03.988" endtime="20200128 18:11:04.433"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:03.987" endtime="20200128 18:11:04.433"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:04.434" level="INFO">Typing text 'VINR770919HDflTD03' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200128 18:11:04.434" endtime="20200128 18:11:05.912"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:04.433" endtime="20200128 18:11:05.912"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200128 18:11:05.914" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200128 18:11:05.913" endtime="20200128 18:11:06.106"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:05.913" endtime="20200128 18:11:06.106"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:06.308" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200128 18:11:06.107" endtime="20200128 18:11:06.308"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:06.106" endtime="20200128 18:11:06.308"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${arg1}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:06.309" level="INFO">Typing text 'VINR820818HL7' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<status status="PASS" starttime="20200128 18:11:06.309" endtime="20200128 18:11:07.287"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:06.308" endtime="20200128 18:11:07.287"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:08.289" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200128 18:11:07.288" endtime="20200128 18:11:08.289"></status>
+</kw>
+<status status="PASS" starttime="20200128 18:11:07.287" endtime="20200128 18:11:08.289"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${arg1}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200128 18:11:08.291" level="INFO">Typing text 'VINR820818HL7' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200128 18:11:09.258" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200128 18:11:08.667" endtime="20200128 18:11:09.258"></status>
+</kw>
+<msg timestamp="20200128 18:11:09.261" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=79.0.3945.130)
+</msg>
+<status status="FAIL" starttime="20200128 18:11:08.290" endtime="20200128 18:11:09.261"></status>
+</kw>
+<status status="FAIL" starttime="20200128 18:11:08.290" endtime="20200128 18:11:09.261"></status>
+</kw>
+<status status="FAIL" starttime="20200128 18:11:03.984" endtime="20200128 18:11:09.262"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="FAIL" starttime="20200128 18:10:05.353" endtime="20200128 18:11:09.262" critical="yes">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=79.0.3945.130)
+</status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="FAIL" starttime="20200128 18:10:00.784" endtime="20200128 18:11:09.263"></status>
+</suite>
+<status status="FAIL" starttime="20200128 18:10:00.606" endtime="20200128 18:11:09.265"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">tg01</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Test Copy 5">Suites.Test Copy 5</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
