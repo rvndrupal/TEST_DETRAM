@@ -1,0 +1,21 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test Copy :: Casos de Prueba CC-04-2019-AMTIF-OT04                     
+==============================================================================
+CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME) :: PRUEBA TRAMITE 018 A   Pantalla Login Ok
+Se introducen los datos para el Login
+Carga los resultados
+| FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-yla-c0="" aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">...</a> is not clickable at point (1264, 87). Other element would receive the click: <div _ngcontent-yla-c3="" class="overlay" ng-reflect-ng-style="[object Object]" style="background-color: rgba(51, 51, 51, 0.8); position: fixed;">...</div>
+  (Session info: chrome=79.0.3945.130)
+------------------------------------------------------------------------------
+Suites.Test Copy :: Casos de Prueba CC-04-2019-AMTIF-OT04             | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Test_detram\resultados_tres\pabot_results\Suites.Test Copy\output.xml

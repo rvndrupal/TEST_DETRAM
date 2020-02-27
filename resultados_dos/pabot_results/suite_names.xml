@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200129 13:56:41.730" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Copy 2" source="C:\Test_detram\TEST\test copy 2.robot">
+<test id="s1-s1-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200129 13:56:42.264" endtime="20200129 13:56:42.264"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200129 13:56:42.264" endtime="20200129 13:56:42.264" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200129 13:56:41.745" endtime="20200129 13:56:42.264"></status>
+</suite>
+<suite id="s1-s2" name="Test Copy 3" source="C:\Test_detram\TEST\test copy 3.robot">
+<test id="s1-s2-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200129 13:56:42.264" endtime="20200129 13:56:42.264"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200129 13:56:42.264" endtime="20200129 13:56:42.264" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200129 13:56:42.264" endtime="20200129 13:56:42.264"></status>
+</suite>
+<suite id="s1-s3" name="Test Copy 4" source="C:\Test_detram\TEST\test copy 4.robot">
+<test id="s1-s3-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200129 13:56:42.282" endtime="20200129 13:56:42.282"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200129 13:56:42.282" endtime="20200129 13:56:42.283" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200129 13:56:42.264" endtime="20200129 13:56:42.283"></status>
+</suite>
+<suite id="s1-s4" name="Test Copy 5" source="C:\Test_detram\TEST\test copy 5.robot">
+<test id="s1-s4-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200129 13:56:42.291" endtime="20200129 13:56:42.291"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200129 13:56:42.290" endtime="20200129 13:56:42.291" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200129 13:56:42.283" endtime="20200129 13:56:42.291"></status>
+</suite>
+<suite id="s1-s5" name="Test Copy 6" source="C:\Test_detram\TEST\test copy 6.robot">
+<test id="s1-s5-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200129 13:56:42.299" endtime="20200129 13:56:42.299"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200129 13:56:42.299" endtime="20200129 13:56:42.299" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200129 13:56:42.292" endtime="20200129 13:56:42.300"></status>
+</suite>
+<suite id="s1-s6" name="Test Copy" source="C:\Test_detram\TEST\test copy.robot">
+<test id="s1-s6-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200129 13:56:42.308" endtime="20200129 13:56:42.308"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200129 13:56:42.307" endtime="20200129 13:56:42.308" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200129 13:56:42.300" endtime="20200129 13:56:42.308"></status>
+</suite>
+<suite id="s1-s7" name="Test" source="C:\Test_detram\TEST\test.robot">
+<test id="s1-s7-t1" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200129 13:56:42.316" endtime="20200129 13:56:42.316"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200129 13:56:42.316" endtime="20200129 13:56:42.316" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200129 13:56:42.309" endtime="20200129 13:56:42.316"></status>
+</suite>
+<status status="PASS" starttime="20200129 13:56:41.730" endtime="20200129 13:56:42.317"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0">Critical Tests</stat>
+<stat pass="7" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="7" fail="0">tg01</stat>
+</tag>
+<suite>
+<stat pass="7" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Test Copy 2">Suites.Test Copy 2</stat>
+<stat pass="1" fail="0" id="s1-s2" name="Test Copy 3">Suites.Test Copy 3</stat>
+<stat pass="1" fail="0" id="s1-s3" name="Test Copy 4">Suites.Test Copy 4</stat>
+<stat pass="1" fail="0" id="s1-s4" name="Test Copy 5">Suites.Test Copy 5</stat>
+<stat pass="1" fail="0" id="s1-s5" name="Test Copy 6">Suites.Test Copy 6</stat>
+<stat pass="1" fail="0" id="s1-s6" name="Test Copy">Suites.Test Copy</stat>
+<stat pass="1" fail="0" id="s1-s7" name="Test">Suites.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

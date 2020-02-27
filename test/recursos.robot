@@ -2,6 +2,7 @@
 Library     SeleniumLibrary
 #Library     Selenium2Library
 Library     String
+#Library     ReadData.py   #Para poder ller los datos de excel
 
 ***Variables***
 #${navegador}    chrome
@@ -14,6 +15,16 @@ ${dir}      Img
 
 
 ***Keywords***
+
+Abrir setup
+    [Arguments]     ${url}  ${nav}
+    Abrir navegador  ${url}   ${nav}   
+    Maximizar
+
+Cerrar setup
+    Cerrar Todos
+
+
 Abrir navegador
     [Arguments]     ${arg1}   ${arg2}
     Open Browser    ${arg1}   ${arg2}
@@ -118,6 +129,10 @@ Esperar Iniciar ok
     [Arguments]    ${arg1}
     Set Selenium Timeout    ${arg1} seconds
 
+Esperar Iniciar Forzar
+    [Arguments]    ${arg1}
+    Set Selenium Implicit Wait    ${arg1} seconds
+
 Alerta ok
     #[Arguments]   ${arg1}
     Handle Alert    accept
@@ -141,7 +156,8 @@ Switch Ventana
     Switch Browser      ${arg1}
 
 Obtener Titulo
-    Get Title    
+    ${titulo}=      Get Title 
+    [Return]     ${titulo}   
 
 Pantalla
     [Arguments]     ${arg1}
@@ -186,20 +202,80 @@ Resultado
     [Arguments]   ${tiempo}   ${dir}    ${print}
     sleep       ${tiempo}   
     Capture Page Screenshot     ${dir}
-    log to console    ${print} 
+    Log    ${print} 
 
 Tabulador
     Press Keys    TAB   '\ue004'
 
 
 
+Limpiar Texto
+    [Arguments]    ${xpath}
+    Clear Element Text    xpath=${xpath} 
 
 
+Continuar 
+    Print  OK continuo
 
-        
+Cerrar Todos
+    Dormir  .5
+    Close All Browsers
 
-     
+Cambiar navegador
+    [Arguments]     ${nav}
+    go to     ${nav}
+
+Regresar navegador
+    go back
+
+
+######### Opciones del Mause ****************
+Menu emergente
+    [Arguments]     ${xpath}
+    Open Context Menu   ${xpath}
+
+Doble click
+    [Arguments]     ${xpath}
+    Double Click Element   ${xpath}
+
+Mause down
+    [Arguments]     ${xpath}
+    Mouse Down   ${xpath}
+
     
+
+#############################################
+
+############ Opciones del Teclado #############
+Texto enter
+    [Arguments]   ${xpath}   
+    Press Key     ${xpath}    \\13
+
+
+Texto tab
+    [Arguments]   ${xpath}   
+    Press Key     ${xpath}    \\9
+
+##############################################
+
+######### Verificar elementos ###############
+Verificar texto
+    [Arguments]   ${poner_texto}   ${tiempo} 
+    Wait Until Page Contains    ${poner_texto}    ${tiempo}
+
+Verificar elemento
+    [Arguments]   ${xpath}   ${tiempo} 
+    Wait Until Page Contains Element    ${xpath}    ${tiempo}
+
+	
+
+#############################################
+
+Obtener Url   
+    ${url}     Get Location  
+    [Return]    ${url}
+        
+   
 
 # If
 #     [Arguments]     ${arg1}     ${arg2}     ${arg3}
@@ -207,7 +283,7 @@ Tabulador
 
 #Opciones del Raton
 ##################################
-MO
+Mause over
     [Arguments]    ${arg1}
     Mouse Over   xpath=${arg1}
 
@@ -230,13 +306,33 @@ USC
     [Arguments]    ${arg1}  
     Unselect Checkbox   ${arg1}  
 
-#Select lista
+##########Select lista #################
 SLI
     [Arguments]    ${arg1}  ${arg2}
     Select From List By Index   ${arg1}     ${arg2}
 SLL
     [Arguments]    ${arg1}  ${arg2}
     Select From List By Label   ${arg1}    ${arg2}
+
+
+Obtener valor lista Etiqueta
+    [Documentation]     Obtener el valor de la lista por etiqueta xpath
+    [Arguments]     ${xpath}
+    ${val}=     Get Selected List Label   ${xpath}
+    [Return]    ${val}
+
+Obtener valor lista Index
+    [Documentation]     Obtener el valor de la lista por Indice xpath
+    [Arguments]     ${xpath}
+    ${val}=     Get Selected List Value   ${xpath}
+    [Return]    ${val}
+
+Obtener todos los valores de la Lista
+    [Documentation]     Obteniendo todos los valores de la lista  xpath
+    [Arguments]     ${xpath}
+    ${val}=     Get List Items  ${xpath}
+    [Return]    ${val}
+
 
 
     
@@ -256,11 +352,95 @@ Comparar
     [Arguments]    ${arg1}  ${arg2}
     Element Text Should Be   ${arg1}  ${arg2}
 
-
-
-    
-
-
 ######################
 # checar el de tiempo  Wait Until Keyword Succeeds 
+    
+
+######## VALIDAR CAMPOS #####################
+
+Validar Texto
+    [Arguments]     ${texto}
+    Page Should Contain	    ${texto}
+
+Validar campo texto
+    [Arguments]     ${xpath_campo}
+    Page Should Contain Textfield   ${xpath_campo}
+
+Validar Boton
+    [Arguments]     ${xpath_buton}
+    Page Should Contain Button      ${xpath_buton}
+
+Validar checkbox
+    [Arguments]     ${xpath_checkbox}   ${mensaje}
+    Page Should Contain Checkbox        ${xpath_checkbox}       ${mensaje}
+
+Validar imagen
+    [Arguments]     ${xpath_imagen}   ${mensaje}
+    Page Should Contain Image        ${xpath_imagen}       ${mensaje}
+
+Validar tener texto
+    [Arguments]     ${xpath_texto}   ${comparar}    ${mensaje}
+    Element Should Contain    ${xpath_texto}    ${comparar}    ${mensaje}
+
+Validar titulo
+    [Arguments]     ${titulo}   
+    Title Should Be     ${titulo}
+
+Validar elemento Disable
+    [Arguments]     ${xpath}   
+    Element Should Be Disabled      ${xpath}
+
+Validar elemento Enabled
+    [Arguments]     ${xpath}   
+    Element Should Be Enabled      ${xpath}
+
+
+Validar elemento Focus
+    [Arguments]     ${xpath}   
+    Element Should Be Focused      ${xpath}
+
+######## VALIDAR CAMPOS #####################
+
+##########Obtener Valores##################
+
+Obtener Value
+    [Documentation]     Obtener el valor de una campo o variable
+    [Arguments]     ${xpath}
+    ${val}=     Get Value   ${xpath}
+    [Return]    ${val}
+
+Obtener Text
+    [Documentation]     Obtener el texto de la variable xpath
+    [Arguments]     ${xpath}
+    ${val}=     Get Text   ${xpath}
+    [Return]    ${val}
+
+
+##########Obtener Valores##################
+
+######### LEER CAMPOS EXCEL ###############
+Leer numero de filas
+    [Arguments]   ${hoja} 
+    ${maxr}=    numero_de_filas     ${hoja} 
+    [Return]    ${maxr}
+
+Leer celda
+    [Arguments]     ${hoja}     ${fila}     ${celda}
+    ${celldata}=   cell_data     ${hoja}     ${fila}      ${celda}
+    [Return]    ${celldata}
+
+
+
+######### LEER CAMPOS EXCEL ###############
+
+
+
+
+
+
+
+
+
+
+
     

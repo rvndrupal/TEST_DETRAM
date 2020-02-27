@@ -20,7 +20,7 @@ Datos Domicilio Fiscal
     Texto   (//input[@formcontrolname='calle'])[1]       Juarez
     Texto  (//input[@formcontrolname='numExterior'])[1]      60
     Texto  (//input[@placeholder='Número interior'])[1]     03
-    Resultado  .5  ${dir}/Datos_fiscales.png  Datos fiscales OK
+    Resultado  1  ${dir}/Datos_fiscales.png  Datos fiscales OK
     Scroll  0  1700
 
 Domicilio de la Planta
@@ -33,7 +33,7 @@ Domicilio de la Planta
     Texto  (//input[@formcontrolname='numExterior'])[2]  45
     Texto  (//input[@formcontrolname='numInterior'])[2]  44
     Click  (//button[contains(@class,'btn btn-primary')])[3]
-    Resultado  .5  ${dir}/Domicilio_planta.png  Domicilio planta OK
+    Resultado  1  ${dir}/Domicilio_planta.png  Domicilio planta OK
 
 
 Domicilio del Almacen
@@ -44,7 +44,7 @@ Domicilio del Almacen
     Texto    (//input[@placeholder='Número exterior'])[3]   12
     Texto  (//input[@placeholder='Número interior'])[3]  43 
     Click  (//button[@class='btn btn-primary'])[5]
-    Resultado  .3  ${dir}/Domicilio_almacen.png  Domicilio Almacen OK
+    Resultado  1  ${dir}/Domicilio_almacen.png  Domicilio Almacen OK
 
 
 Datos del Representante Legal
@@ -62,14 +62,14 @@ Datos del Representante Legal
     Texto   (//input[@placeholder='Lada'])[2]   044
     Texto  (//input[contains(@type,'text')])[36]  558987987
     Texto    (//input[contains(@placeholder,'ejemplo@dominio.com')])[3]     Maribel@gmail.com
-    Resultado  .3   ${dir}/Datos_legal.png    Datos Representante Legal OK
+    Resultado  1   ${dir}/Datos_legal.png    Datos Representante Legal OK
 
 
 Clave del medico veterinario
     Scroll  0  2300
     Texto  (//input[@type='text'])[38]  MR-0119-09-001-10
     Click  (//button[@class='btn btn-primary'])[7]
-    Resultado  .3  ${dir}/Clave_medico.png  Clave medico OK
+    Resultado  3  ${dir}/Clave_medico.png  Clave medico OK
     
 
 Manipulate current time
@@ -96,8 +96,10 @@ Login
     Maximizar 
     Scroll  0  200
     Resultado  .5  ${dir}/Login.png  Pantalla Login Ok
-    Texto   //input[contains(@id,'username')]    daniel.badillo
-    Texto   //input[contains(@id,'password')]    test123$ 
+    # Texto   //input[contains(@id,'username')]    daniel.badillo
+    # Texto   //input[contains(@id,'password')]    test123$ 
+    Texto   //input[contains(@id,'username')]    hacarrillo
+    Texto   //input[contains(@id,'password')]    test
     Resultado  .5  ${dir}/Login_password.png   Se introducen los datos para el Login
     Click  (//button[@type='button'])[3]
     Dormir  1
@@ -147,22 +149,26 @@ Actividad Economica
     Click  //option[contains(text(),'ELABORADOR POR MAQUILA')]
     Click  //select[contains(@formcontrolname,'materiaProducto')]
     Click   //option[contains(text(),'SALES PURAS ANTIMICROBIANAS')]
-    Click   //select[contains(@ng-reflect-name,'funcion')]
+    
+    #Click   //select[contains(@ng-reflect-name,'funcion')]
+    Click   //*[@id="funcion"]
     Click   //option[contains(text(),'ALMACENAR')]
     Dormir  1
     Click   //option[contains(text(),'ALMACENAR')]
     Click   (//button[@class='btn btn-primary'][contains(.,'Agregar')])[1]
     Scroll  0  1200
-    Resultado  .3  ${dir}/Actividad_económica.png  Actividad OK
+    Resultado  1  ${dir}/Actividad_económica.png  Actividad OK
 
 Documentos Anexos
     Scroll  0  2500
+    Esperar Iniciar Forzar    50  
     Examinar    (//input[contains(@type,'file')])[1]     ${pdf1}
     Examinar    (//input[contains(@type,'file')])[2]     ${pdf2}
-    Click  //input[contains(@id,'check')]
+    #Click  //input[contains(@id,'check')]
+    Click   //strong[contains(.,'He leído y acepto los términos y condiciones')]
     Scroll  0  2700
-    Click  (//button[@class='btn btn-primary'])[8]
-    Dormir  2
+    Click  (//button[@class='btn btn-primary'])[8]   
+    Dormir  10
     Scroll  0  2800
     Dormir    2
     Resultado  .4  ${dir}/Archivos.png  Archivos pdf OK
@@ -170,10 +176,11 @@ Documentos Anexos
     #(//button[contains(@type,'button')])[15]
     Dormir  2
     Scroll  0  300
-    Resultado  .2  ${dir}/Firma_electronica.png  Firma Electronica OK
+    Resultado  1  ${dir}/Firma_electronica.png  Firma Electronica OK
 
 
 Sin Firma
+    Esperar Iniciar Forzar    5 
     Click  (//button[contains(@type,'button')])[3]
     Dormir  8
     Resultado  1  ${dir}/Encuesta_satisfaccion.png  Encuesta de Satisfacción OK
@@ -189,6 +196,7 @@ Sin Firma
     Resultado  .3  ${dir}/Fin.png  Final sin firma OK
 
 Con firma
+    Esperar Iniciar Forzar    50 
     Scroll  0  350
     Click  (//button[@class='btn btn-primary'])[1]
     Dormir  2
