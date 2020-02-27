@@ -66,7 +66,7 @@ CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
 
     Cerrar
 
@@ -77,7 +77,7 @@ CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Cerrar
@@ -90,7 +90,7 @@ CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Actividad Economica  
@@ -103,7 +103,7 @@ CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Actividad Economica 
@@ -117,7 +117,7 @@ CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Actividad Economica 
@@ -133,7 +133,7 @@ CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Actividad Economica 
@@ -150,7 +150,7 @@ CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Actividad Economica 
@@ -169,7 +169,7 @@ CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Actividad Economica 
@@ -189,7 +189,7 @@ CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)
     #Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Actividad Economica 
@@ -210,7 +210,7 @@ CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)
     Video Iniciar
     ${claverfc} =    Aleatorio claverfc
     Log     ${claverfc} 
-    Login   ${url}   chrome
+    Login   ${url}   ${${navegador}
     Tramite
     Datos Personales    ${claverfc}
     Actividad Economica 
