@@ -19,7 +19,7 @@ Library     FakerLibrary
 ***Variables***
 #${url}          http://10.16.3.29/login
 ${url}          http://10.16.3.29/login/init
-${navegador}    chrome
+${navegador}    firefox
 ${tiempo}   .1
 ${dir}      Tramites
 ${dir2}      Aviso
