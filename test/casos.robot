@@ -15,6 +15,7 @@ ${pdf2}     C:\\pdf\\pdf2.pdf
 ***Keywords***  
 
 Datos Domicilio Fiscal
+    Esperar Iniciar Forzar    10
     Texto  (//input[contains(@formcontrolname,'codigoPostal')])[1]  53200
     Scroll  0   1400
     Texto   (//input[@formcontrolname='calle'])[1]       Juarez
@@ -24,6 +25,7 @@ Datos Domicilio Fiscal
     Scroll  0  1700
 
 Domicilio de la Planta
+    Esperar Iniciar Forzar    10
     Scroll  0  1800
     Texto  (//input[@placeholder='Código Postal'])[2]  52300
     Click   (//select[contains(@formcontrolname,'colonia')])[2]
@@ -37,6 +39,7 @@ Domicilio de la Planta
 
 
 Domicilio del Almacen
+    Esperar Iniciar Forzar    10
     Scroll  0    2100
     Dormir  .4
     Texto  (//input[@placeholder='Código Postal'])[3]  53200
@@ -48,6 +51,7 @@ Domicilio del Almacen
 
 
 Datos del Representante Legal
+    Esperar Iniciar Forzar    10
     [Arguments]     ${arg1}
     ${curp} =  Aleatorio Curp
     Scroll  0  2250
@@ -66,6 +70,7 @@ Datos del Representante Legal
 
 
 Clave del medico veterinario
+    Esperar Iniciar Forzar    10
     Scroll  0  2300
     Texto  (//input[@type='text'])[38]  MR-0119-09-001-10
     Click  (//button[@class='btn btn-primary'])[7]
@@ -88,6 +93,7 @@ Manipulate current time
 
 
 Login
+    Esperar Iniciar Forzar    10
     [Arguments]     ${arg1}     ${arg2}
      #Video Iniciar 
     Esperar Iniciar ok    5
@@ -106,6 +112,7 @@ Login
     Scroll  0  500
 
 Tramite
+    Esperar Iniciar Forzar    10
     Resultado  .3  ${dir}/Carga_resultados.png   Carga los resultados
     Click  (//a[@href='#'])[1]
     Click  //a[@routerlink='/registraSolicitudTramite/18A/1/init'][contains(.,'Trámite 18A')]
@@ -114,6 +121,7 @@ Tramite
     Click  //select[@formcontrolname='tipoPersona']
 
 Datos Personales
+    Esperar Iniciar Forzar    10
     [Arguments]     ${claverfc}
     ${curp} =  Aleatorio Curp
     Click  //*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]
@@ -145,6 +153,7 @@ Datos Personales
     Scroll  0  1000
 
 Actividad Economica
+    Esperar Iniciar Forzar    10
     Click  //select[@formcontrolname='actividadServicio']
     Click  //option[contains(text(),'ELABORADOR POR MAQUILA')]
     Click  //select[contains(@formcontrolname,'materiaProducto')]
@@ -180,7 +189,7 @@ Documentos Anexos
 
 
 Sin Firma
-    Esperar Iniciar Forzar    5 
+    Esperar Iniciar Forzar    10
     Click  (//button[contains(@type,'button')])[3]
     Dormir  8
     Resultado  1  ${dir}/Encuesta_satisfaccion.png  Encuesta de Satisfacción OK
