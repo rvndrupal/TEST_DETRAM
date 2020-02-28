@@ -10,6 +10,7 @@ Library     FakerLibrary
 
 
 #robot -d resultados -i tg01  test.robot
+#robot -d resultados -i rd01 -i rd02  -v navegador:firefox  test.robot
 #robot -d resultados  test.robot
 #Vinr770919hdfltd00
 #robot -d resultados  tes*.robot
@@ -23,6 +24,7 @@ ${navegador}    chrome
 ${tiempo}   .1
 ${dir}      Tramites
 ${dir2}      Aviso
+
 
 
 ${pdf1}     C:\\pdf\\pdf1.pdf
@@ -227,18 +229,56 @@ CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)
     Cerrar
 
 
-    
 
-    
-     
-    
-    
-    
- 
+
+
 
  
-    # Con firma
-    # Dormir  1.5
-    # #Video Finalizar
+#INICIA EL FLUJO INTERNO
+CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN) 
+    [Documentation]    TRAMITES OTO7  REASIGNACIÓN DE DICTAMEN
+    [Tags]      rd01
+    Esperar Iniciar Forzar  10 
+    #Video Iniciar
+    Login2  ${url}  ${navegador}   norma.miguel    test123$
+    Resultado  1  ${dir}/Rdictamen.png  Entrando reasignación dictamen
+    Scroll  0  100
+    Dormir  1.5
+    Scroll  0  300
+    Click  (//input[contains(@type,'checkbox')])[1]
+    Dormir  1
+    Scroll  0  1000
+    Dormir     1
+    Click  (//button[@class='btn btn-primary'])[1]
+    Resultado  1  ${dir}/RAsignar.png  Asignando
+    Click  (//input[contains(@name,'optradio')])[3]
+    Click   (//button[contains(@data-dismiss,'modal')])[2]
+    Resultado  1  ${dir}/RAsignacionok.png  Asignando ok
+    Dormir  2
     Cerrar
+
+CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN) 
+    [Documentation]    TRAMITES OTO7  REASIGNACIÓN DE DICTAMEN
+    [Tags]      rd02
+    Esperar Iniciar Forzar  10 
+    #Video Iniciar
+    Login2  ${url}  ${navegador}   norma.miguel    test123$
+    Resultado  1  ${dir}/Rdictamen.png  Entrando reasignación dictamen
+    Scroll  0  100
+    Dormir  1.5
+    Scroll  0  300
+    Click  (//input[contains(@type,'checkbox')])[1]
+    Dormir  1
+    Scroll  0  1000
+    Dormir     1
+    Click  (//button[@class='btn btn-primary'])[1]
+    Resultado  1  ${dir}/RAsignar.png  Asignando
+    Click  (//input[contains(@name,'optradio')])[3]
+    Click   (//button[contains(@data-dismiss,'modal')])[2]
+    Resultado  1  ${dir}/RAsignacionok.png  Asignando ok
+    Dormir  2
+    Cerrar
+
+
+
 

@@ -111,6 +111,23 @@ Login
     Dormir  1
     Scroll  0  500
 
+Login2
+    Esperar Iniciar Forzar    10
+    [Arguments]     ${arg1}     ${arg2}     ${user}     ${pass}
+     #Video Iniciar 
+    Esperar Iniciar ok    5
+    Dormir Todos  ${tiempo}
+    Abrir navegador  ${arg1}   ${arg2}  
+    Maximizar 
+    Scroll  0  200
+    Resultado  .5  ${dir}/Login.png  Pantalla Login Ok 
+    Texto   //input[contains(@id,'username')]    ${user}
+    Texto   //input[contains(@id,'password')]    ${pass}
+    Resultado  .5  ${dir}/Login_password.png   Se introducen los datos para el Login
+    Click  (//button[@type='button'])[3]
+    Dormir  1
+    Scroll  0  500
+
 Tramite
     Esperar Iniciar Forzar    10
     Resultado  .3  ${dir}/Carga_resultados.png   Carga los resultados
