@@ -254,29 +254,34 @@ CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)
     Click  (//input[contains(@name,'optradio')])[3]
     Click   (//button[contains(@data-dismiss,'modal')])[2]
     Resultado  1  ${dir}/RAsignacionok.png  Asignando ok
-    Dormir  2
+    Dormir  4
     Cerrar
 
-CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN) 
-    [Documentation]    TRAMITES OTO7  REASIGNACIÓN DE DICTAMEN
+CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04) 
+    [Documentation]    TRAMITES OTO7  REASIGNACIÓN DE DICTAMEN PRUEBA-04
     [Tags]      rd02
     Esperar Iniciar Forzar  10 
     #Video Iniciar
     Login2  ${url}  ${navegador}   norma.miguel    test123$
     Resultado  1  ${dir}/Rdictamen.png  Entrando reasignación dictamen
-    Scroll  0  100
+    Scroll  0  200
+    Dormir  3
+    Click  //select[@class='form-control ng-untouched ng-pristine ng-valid']
     Dormir  1.5
-    Scroll  0  300
-    Click  (//input[contains(@type,'checkbox')])[1]
-    Dormir  1
-    Scroll  0  1000
+    Click  /html/body/app-root/app-consulta-solicitudes/main/div/div[1]/div[1]/div/select/option[2]
+    Dormir    1.5
+    Click  (//a[contains(@data-target,'#modalReAsignacion')])[1]
     Dormir     1
-    Click  (//button[@class='btn btn-primary'])[1]
-    Resultado  1  ${dir}/RAsignar.png  Asignando
-    Click  (//input[contains(@name,'optradio')])[3]
-    Click   (//button[contains(@data-dismiss,'modal')])[2]
-    Resultado  1  ${dir}/RAsignacionok.png  Asignando ok
-    Dormir  2
+    Click  (//input[contains(@name,'optradio')])[2]
+    Dormir      1
+    Click  (//button[@class='btn btn-primary'][contains(.,'Aceptar')])[2]
+    Dormir      4
+
+
+
+
+
+  
     Cerrar
 
 

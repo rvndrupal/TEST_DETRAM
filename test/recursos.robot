@@ -386,13 +386,18 @@ Validar titulo
     [Arguments]     ${titulo}   
     Title Should Be     ${titulo}
 
+
 Validar elemento Disable
     [Arguments]     ${xpath}   
     Element Should Be Disabled      ${xpath}
+    [Return]    Desactivado
+    
+    
 
 Validar elemento Enabled
     [Arguments]     ${xpath}   
     Element Should Be Enabled      ${xpath}
+    [Return]    Activado
 
 
 Validar elemento Focus

@@ -12,6 +12,7 @@ ${pdf1}     C:\\pdf\\pdf1.pdf
 ${pdf2}     C:\\pdf\\pdf2.pdf
 
 
+
 ***Keywords***  
 
 Datos Domicilio Fiscal
@@ -145,11 +146,12 @@ Datos Personales
     Texto  (//input[contains(@formcontrolname,'curp')])[1]     ${curp}   
     Scroll  0  400
     Dormir  .2
-    Texto  //input[@formcontrolname='rfc']          ${claverfc}
+    Texto  //input[@formcontrolname='rfc']         ${claverfc}      
     Dormir   2
-    Texto  //input[@formcontrolname='rfc']          ${claverfc}
-    Dormir  3
-    Texto  (//input[@type='text'])[3]    YENNYELY NICOLE
+    Texto  //input[@formcontrolname='rfc']         ${claverfc} 
+    Dormir  1
+    Scroll  0  600
+    Texto  (//input[@type='text'])[3]    YENNYELY NICOLE  
     Dormir  .2
     Texto  //input[@formcontrolname='primerApellido']   MONTENEGRO
     Dormir   .2
@@ -168,6 +170,9 @@ Datos Personales
     Texto  //input[contains(@formcontrolname,'correoElectronicoAl')]   rodrigodrupal5@gmail.com
     Resultado  1  ${dir}/Personales.png  Datos Personales Ok
     Scroll  0  1000
+
+    
+
 
 Actividad Economica
     Esperar Iniciar Forzar    10
