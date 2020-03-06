@@ -243,3 +243,37 @@ Con firma
     Scroll  0  350
     Click  //a[@class='btn btn-default'][contains(.,'Descargar documento PDF')]
     Resultado  .3  ${dir}/Final_con_key.png  Final con Firma OK
+
+Global multiples casos
+    [Documentation]    PRUEBA TRAMITE 018 A  DATOS FIRMA ELECTRONICA
+    [Tags]      tg10
+    Esperar Iniciar ok    30  
+    Video Iniciar
+    #${navegador}=     Get Value From User     Navegador:    default_value=chrome     
+    ${claverfc} =    Aleatorio claverfc
+    Log     ${claverfc} 
+    Login   ${url}   ${navegador}
+    Tramite
+    #Datos Personales    ${claverfc}
+    : FOR    ${INDEX}    IN RANGE    1    50
+    \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
+    \   Log     ${val}
+    \   Dormir  1
+    \   Run Keyword If  '${val}'=='True'     Exit For Loop
+    Actividad Economica 
+    Datos Domicilio Fiscal 
+    Domicilio de la Planta
+    Domicilio del Almacen
+    ${claverfc2} =    Aleatorio claverfc2
+    Log     ${claverfc2}       
+    # Datos del Representante Legal    ${claverfc2}
+    : FOR    ${INDEX}    IN RANGE    1    50
+    \   ${val}=     Run Keyword And Return Status  Datos del Representante Legal    ${claverfc2}
+    \   Log     ${val}
+    \   Dormir  1
+    \   Run Keyword If  '${val}'=='True'     Exit For Loop
+    Clave del medico veterinario    
+    Documentos Anexos
+    Sin Firma
+    Video Finalizar
+    Cerrar

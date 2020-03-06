@@ -6,10 +6,11 @@ Library     DateTime
 Resource    ./recursos.robot
 Resource    ./casos.robot
 Library     FakerLibrary
+Library     Dialogs
 
 
 
-#robot -d resultados -i tg01  test.robot
+#robot -d resultados -i tg01  test_if.robot
 #robot -d resultados -i rd01 -i rd02  -v navegador:firefox  test.robot
 #robot -d resultados  test.robot
 #Vinr770919hdfltd00
@@ -58,11 +59,17 @@ Aleatorio Curp
     ${datetime} =	Convert Date  ${CurrentDate}  datetime
     ${tex} =    Generate Random String  2  [UPPER]
     ${num} =    Generate Random String  2  [NUMBERS]
-    [Return]     VINF810919HDflTD${num}
+    [Return]     GOHJ810919HDflTD${num}
     	
     
 
 *** Test Cases ***
+CC00 SOLICITUD DE VARIABLES
+    [Documentation]    Solicitud de Variables
+    [Tags]      tg00
+    ${navegador}=     Get Value From User     Navegador:    default_value=chrome  
+
+
 CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)
     [Documentation]    PRUEBA TRAMITE 018 A  (Login) 
     [Tags]      tg01   
@@ -83,8 +90,9 @@ CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}=      YNXC840918PQ7
-    #Datos Personales     ${claverfc}   
-    : FOR    ${INDEX}    IN RANGE    1    20
+    #Datos Personales     ${claverfc} 
+    # ${Opciones}=     Get Value From User     Numero de Opciones:    default_value=1  
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -102,7 +110,7 @@ CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -120,7 +128,7 @@ CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -139,7 +147,7 @@ CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -160,7 +168,7 @@ CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -182,7 +190,7 @@ CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -194,7 +202,7 @@ CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)
     ${claverfc2} =    Aleatorio claverfc2
     Log     ${claverfc2}       
     #Datos del Representante Legal    ${claverfc2}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos del Representante Legal    ${claverfc2}
     \   Log     ${val}
     \   Dormir  1
@@ -211,7 +219,7 @@ CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -223,7 +231,7 @@ CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)
     ${claverfc2} =    Aleatorio claverfc2
     Log     ${claverfc2}       
     #Datos del Representante Legal    ${claverfc2}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos del Representante Legal    ${claverfc2}
     \   Log     ${val}
     \   Dormir  1
@@ -241,7 +249,7 @@ CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -253,7 +261,7 @@ CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)
     ${claverfc2} =    Aleatorio claverfc2
     Log     ${claverfc2}       
     #Datos del Representante Legal    ${claverfc2}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos del Representante Legal    ${claverfc2}
     \   Log     ${val}
     \   Dormir  1
@@ -272,7 +280,7 @@ CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)
     Login   ${url}   ${navegador}
     Tramite
     #Datos Personales    ${claverfc}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos Personales     ${claverfc}
     \   Log     ${val}
     \   Dormir  1
@@ -284,7 +292,7 @@ CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)
     ${claverfc2} =    Aleatorio claverfc2
     Log     ${claverfc2}       
     # Datos del Representante Legal    ${claverfc2}
-    : FOR    ${INDEX}    IN RANGE    1    50
+    : FOR    ${INDEX}    IN RANGE    1    1000
     \   ${val}=     Run Keyword And Return Status  Datos del Representante Legal    ${claverfc2}
     \   Log     ${val}
     \   Dormir  1
@@ -343,14 +351,19 @@ CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)
     Dormir      1
     Click  (//button[@class='btn btn-primary'][contains(.,'Aceptar')])[2]
     Dormir      4
-
-
-
-
-
-  
     Cerrar
 
 
 
+
+######## Disparar multiples test##################
+CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)
+    [Documentation]    PRUEBA TRAMITE 018 A MULTIPLES TEST
+    [Tags]      tg11    
+    ${Eventos}=     Get Value From User     Numero de Test a Probar:    default_value=1
+    Log     ${Eventos}
+    : FOR    ${INDEX}    IN RANGE    1    ${Eventos}
+    \   Global multiples casos
+    \   Resultado   1   ${dir}/Terminan_casos.png   Termina los casos
+    
 
