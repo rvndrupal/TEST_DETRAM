@@ -394,10 +394,30 @@ CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)
     \   ${lada}=   Leer celda  Hoja1  ${i}  4
     \   ${tel_fijo}=   Leer celda  Hoja1  ${i}  5
     \   ${extension}=   Leer celda  Hoja1  ${i}  6
+    \   ${fax}=   Leer celda  Hoja1  ${i}  7
+    \   ${email_uno}=   Leer celda  Hoja1  ${i}  8
+    \   ${email_dos}=   Leer celda  Hoja1  ${i}  9
+    \   ${actividad}=   Leer celda  Hoja1  ${i}  10
+    \   Log     ${actividad}
+    \   ${materia}=   Leer celda  Hoja1  ${i}  11
+    \   ${funcion}=   Leer celda  Hoja1  ${i}  12
     \   Texto   (//input[contains(@formcontrolname,'nombre')])[1]  ${nombre}
     \   Texto   (//input[contains(@formcontrolname,'primerApellido')])[1]  ${ap}
     \   Texto   (//input[contains(@formcontrolname,'segundoApellido')])[1]  ${am}
     \   Texto   (//input[contains(@formcontrolname,'lada')])[1]  ${lada}
     \   Texto   (//input[contains(@placeholder,'Teléfono fijo')])[1]  ${tel_fijo}
     \   Texto   (//input[contains(@type,'text')])[8]  ${extension}
+    \   Texto   (//input[contains(@type,'text')])[9]  ${fax}
+    \   Texto   (//input[contains(@formcontrolname,'correoElectronico')])[1]  ${email_uno}
+    \   Texto   (//input[contains(@placeholder,'ejemplo@dominio.com')])[2]  ${email_dos}
+    \   Esperar Iniciar Forzar    10
+    \   Scroll  0  1000
+    \   SLL     //body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]    ${actividad}
+    \   Dormir  .3
+    \   SLL     //app-actividad-economica//div[2]//div[1]//select[1]        ${materia}
+    \   Dormir    .3
+    \   SLL     //select[contains(@formcontrolname,'funcion')]        ${funcion}
+    \   Dormir      .8
+    recursos.Cerrar
+  
     

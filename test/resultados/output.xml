@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200306 11:59:22.107" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200306 16:26:16.884" rpa="false">
 <suite id="s1" name="Test If" source="C:\Test_detram\test\test_if.robot">
 <test id="s1-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
 <kw name="Esperar Iniciar ok" library="recursos">
@@ -11,17 +11,17 @@
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200306 11:59:23.328" endtime="20200306 11:59:23.328"></status>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:23.327" endtime="20200306 11:59:23.328"></status>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
 <kw name="Video Iniciar" library="recursos">
 <kw name="Start Video Recording" library="ScreenCapLibrary">
 <doc>Starts the recording of a video in the background with the specified ``name``.
 The recording can be stopped by calling the `Stop Video Recording` keyword.</doc>
-<status status="PASS" starttime="20200306 11:59:23.328" endtime="20200306 11:59:23.330"></status>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:23.328" endtime="20200306 11:59:23.330"></status>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
 <kw name="Aleatorio claverfc">
 <assign>
@@ -35,8 +35,8 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <assign>
 <var>${CurrentDate}</var>
 </assign>
-<msg timestamp="20200306 11:59:23.331" level="INFO">${CurrentDate} = 2020-03-06 11:59:23.331462</msg>
-<status status="PASS" starttime="20200306 11:59:23.331" endtime="20200306 11:59:23.331"></status>
+<msg timestamp="20200306 16:26:18.010" level="INFO">${CurrentDate} = 2020-03-06 16:26:18.010082</msg>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
 <kw name="Convert Date" library="DateTime">
 <doc>Converts between supported `date formats`.</doc>
@@ -47,8 +47,8 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <assign>
 <var>${datetime}</var>
 </assign>
-<msg timestamp="20200306 11:59:23.333" level="INFO">${datetime} = 2020-03-06 11:59:23.331462</msg>
-<status status="PASS" starttime="20200306 11:59:23.331" endtime="20200306 11:59:23.333"></status>
+<msg timestamp="20200306 16:26:18.010" level="INFO">${datetime} = 2020-03-06 16:26:18.010082</msg>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
 <kw name="Generate Random String" library="String">
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
@@ -59,8 +59,8 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <assign>
 <var>${text}</var>
 </assign>
-<msg timestamp="20200306 11:59:23.334" level="INFO">${text} = VX</msg>
-<status status="PASS" starttime="20200306 11:59:23.333" endtime="20200306 11:59:23.334"></status>
+<msg timestamp="20200306 16:26:18.010" level="INFO">${text} = WX</msg>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
 <kw name="Generate Random String" library="String">
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
@@ -71,8 +71,8 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <assign>
 <var>${inc}</var>
 </assign>
-<msg timestamp="20200306 11:59:23.334" level="INFO">${inc} = GWT</msg>
-<status status="PASS" starttime="20200306 11:59:23.334" endtime="20200306 11:59:23.334"></status>
+<msg timestamp="20200306 16:26:18.010" level="INFO">${inc} = TJI</msg>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
 <kw name="Generate Random String" library="String">
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
@@ -83,19 +83,19 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <assign>
 <var>${num}</var>
 </assign>
-<msg timestamp="20200306 11:59:23.334" level="INFO">${num} = 0</msg>
-<status status="PASS" starttime="20200306 11:59:23.334" endtime="20200306 11:59:23.334"></status>
+<msg timestamp="20200306 16:26:18.010" level="INFO">${num} = 0</msg>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
-<msg timestamp="20200306 11:59:23.335" level="INFO">${claverfc} = GWTC840918VX0</msg>
-<status status="PASS" starttime="20200306 11:59:23.330" endtime="20200306 11:59:23.335"></status>
+<msg timestamp="20200306 16:26:18.010" level="INFO">${claverfc} = TJIC840918WX0</msg>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.010"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${claverfc}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:23.335" level="INFO">GWTC840918VX0</msg>
-<status status="PASS" starttime="20200306 11:59:23.335" endtime="20200306 11:59:23.335"></status>
+<msg timestamp="20200306 16:26:18.026" level="INFO">TJIC840918WX0</msg>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:26:18.026"></status>
 </kw>
 <kw name="Login" library="casos">
 <arguments>
@@ -111,9 +111,9 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200306 11:59:23.336" endtime="20200306 11:59:23.337"></status>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:18.026"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:23.336" endtime="20200306 11:59:23.337"></status>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:18.026"></status>
 </kw>
 <kw name="Esperar Iniciar ok" library="recursos">
 <arguments>
@@ -124,9 +124,9 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200306 11:59:23.337" endtime="20200306 11:59:23.337"></status>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:18.026"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:23.337" endtime="20200306 11:59:23.337"></status>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:18.026"></status>
 </kw>
 <kw name="Dormir Todos" library="recursos">
 <arguments>
@@ -137,9 +137,9 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200306 11:59:23.338" endtime="20200306 11:59:23.338"></status>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:18.026"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:23.338" endtime="20200306 11:59:23.338"></status>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:18.026"></status>
 </kw>
 <kw name="Abrir navegador" library="recursos">
 <arguments>
@@ -152,17 +152,17 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arg>${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:23.339" level="INFO">Opening browser 'chrome' to base url 'http://10.16.3.29/login/init'.</msg>
-<status status="PASS" starttime="20200306 11:59:23.338" endtime="20200306 11:59:27.347"></status>
+<msg timestamp="20200306 16:26:18.026" level="INFO">Opening browser 'chrome' to base url 'http://10.16.3.29/login/init'.</msg>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:21.731"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:23.338" endtime="20200306 11:59:27.347"></status>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:21.731"></status>
 </kw>
 <kw name="Maximizar" library="recursos">
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200306 11:59:27.347" endtime="20200306 11:59:28.565"></status>
+<status status="PASS" starttime="20200306 16:26:21.731" endtime="20200306 16:26:22.963"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:27.347" endtime="20200306 11:59:28.565"></status>
+<status status="PASS" starttime="20200306 16:26:21.731" endtime="20200306 16:26:22.964"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -174,12 +174,12 @@ The recording can be stopped by calling the `Stop Video Recording` keyword.</doc
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200306 11:59:28.566" level="INFO">Executing JavaScript:
+<msg timestamp="20200306 16:26:22.965" level="INFO">Executing JavaScript:
 window.scrollTo(0,200)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200306 11:59:28.565" endtime="20200306 11:59:28.672"></status>
+<status status="PASS" starttime="20200306 16:26:22.964" endtime="20200306 16:26:23.072"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:28.565" endtime="20200306 11:59:28.672"></status>
+<status status="PASS" starttime="20200306 16:26:22.964" endtime="20200306 16:26:23.072"></status>
 </kw>
 <kw name="Resultado" library="recursos">
 <arguments>
@@ -192,26 +192,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>${tiempo}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:29.173" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200306 11:59:28.672" endtime="20200306 11:59:29.173"></status>
+<msg timestamp="20200306 16:26:23.586" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:23.072" endtime="20200306 16:26:23.586"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
 <arguments>
 <arg>${dir}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:29.636" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Login.png"&gt;&lt;img src="Tramites/Login.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200306 11:59:29.173" endtime="20200306 11:59:29.636"></status>
+<msg timestamp="20200306 16:26:24.031" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Login.png"&gt;&lt;img src="Tramites/Login.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:23.586" endtime="20200306 16:26:24.031"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${print}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:29.637" level="INFO">Pantalla Login Ok</msg>
-<status status="PASS" starttime="20200306 11:59:29.636" endtime="20200306 11:59:29.637"></status>
+<msg timestamp="20200306 16:26:24.031" level="INFO">Pantalla Login Ok</msg>
+<status status="PASS" starttime="20200306 16:26:24.031" endtime="20200306 16:26:24.031"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:28.672" endtime="20200306 11:59:29.637"></status>
+<status status="PASS" starttime="20200306 16:26:23.072" endtime="20200306 16:26:24.031"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -224,10 +224,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:29.638" level="INFO">Typing text 'hacarrillo' into text field 'xpath=//input[contains(@id,'username')]'.</msg>
-<status status="PASS" starttime="20200306 11:59:29.637" endtime="20200306 11:59:30.046"></status>
+<msg timestamp="20200306 16:26:24.031" level="INFO">Typing text 'hacarrillo' into text field 'xpath=//input[contains(@id,'username')]'.</msg>
+<status status="PASS" starttime="20200306 16:26:24.031" endtime="20200306 16:26:24.441"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:29.637" endtime="20200306 11:59:30.046"></status>
+<status status="PASS" starttime="20200306 16:26:24.031" endtime="20200306 16:26:24.441"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -240,10 +240,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:30.046" level="INFO">Typing text 'test' into text field 'xpath=//input[contains(@id,'password')]'.</msg>
-<status status="PASS" starttime="20200306 11:59:30.046" endtime="20200306 11:59:30.435"></status>
+<msg timestamp="20200306 16:26:24.442" level="INFO">Typing text 'test' into text field 'xpath=//input[contains(@id,'password')]'.</msg>
+<status status="PASS" starttime="20200306 16:26:24.442" endtime="20200306 16:26:24.825"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:30.046" endtime="20200306 11:59:30.435"></status>
+<status status="PASS" starttime="20200306 16:26:24.442" endtime="20200306 16:26:24.826"></status>
 </kw>
 <kw name="Resultado" library="recursos">
 <arguments>
@@ -256,26 +256,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>${tiempo}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:30.936" level="INFO">Slept 500 milliseconds</msg>
-<status status="PASS" starttime="20200306 11:59:30.436" endtime="20200306 11:59:30.936"></status>
+<msg timestamp="20200306 16:26:25.327" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:24.826" endtime="20200306 16:26:25.327"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
 <arguments>
 <arg>${dir}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:31.354" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Login_password.png"&gt;&lt;img src="Tramites/Login_password.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200306 11:59:30.936" endtime="20200306 11:59:31.354"></status>
+<msg timestamp="20200306 16:26:25.749" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Login_password.png"&gt;&lt;img src="Tramites/Login_password.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:25.327" endtime="20200306 16:26:25.749"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${print}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:31.354" level="INFO">Se introducen los datos para el Login</msg>
-<status status="PASS" starttime="20200306 11:59:31.354" endtime="20200306 11:59:31.354"></status>
+<msg timestamp="20200306 16:26:25.750" level="INFO">Se introducen los datos para el Login</msg>
+<status status="PASS" starttime="20200306 16:26:25.749" endtime="20200306 16:26:25.750"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:30.435" endtime="20200306 11:59:31.354"></status>
+<status status="PASS" starttime="20200306 16:26:24.826" endtime="20200306 16:26:25.750"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -286,10 +286,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:31.355" level="INFO">Clicking element 'xpath=(//button[@type='button'])[3]'.</msg>
-<status status="PASS" starttime="20200306 11:59:31.355" endtime="20200306 11:59:31.613"></status>
+<msg timestamp="20200306 16:26:25.751" level="INFO">Clicking element 'xpath=(//button[@type='button'])[3]'.</msg>
+<status status="PASS" starttime="20200306 16:26:25.750" endtime="20200306 16:26:26.006"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:31.354" endtime="20200306 11:59:31.613"></status>
+<status status="PASS" starttime="20200306 16:26:25.750" endtime="20200306 16:26:26.006"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -300,10 +300,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:32.615" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200306 11:59:31.614" endtime="20200306 11:59:32.615"></status>
+<msg timestamp="20200306 16:26:27.007" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:26.006" endtime="20200306 16:26:27.007"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:31.613" endtime="20200306 11:59:32.615"></status>
+<status status="PASS" starttime="20200306 16:26:26.006" endtime="20200306 16:26:27.007"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -315,14 +315,14 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200306 11:59:32.616" level="INFO">Executing JavaScript:
+<msg timestamp="20200306 16:26:27.008" level="INFO">Executing JavaScript:
 window.scrollTo(0,500)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200306 11:59:32.615" endtime="20200306 11:59:32.722"></status>
+<status status="PASS" starttime="20200306 16:26:27.007" endtime="20200306 16:26:27.117"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:32.615" endtime="20200306 11:59:32.722"></status>
+<status status="PASS" starttime="20200306 16:26:27.007" endtime="20200306 16:26:27.117"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:23.336" endtime="20200306 11:59:32.722"></status>
+<status status="PASS" starttime="20200306 16:26:18.026" endtime="20200306 16:26:27.117"></status>
 </kw>
 <kw name="Tramite" library="casos">
 <kw name="Esperar Iniciar Forzar" library="recursos">
@@ -334,9 +334,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200306 11:59:32.723" endtime="20200306 11:59:32.825"></status>
+<status status="PASS" starttime="20200306 16:26:27.118" endtime="20200306 16:26:27.222"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:32.723" endtime="20200306 11:59:32.825"></status>
+<status status="PASS" starttime="20200306 16:26:27.118" endtime="20200306 16:26:27.222"></status>
 </kw>
 <kw name="Resultado" library="recursos">
 <arguments>
@@ -349,26 +349,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>${tiempo}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:33.127" level="INFO">Slept 300 milliseconds</msg>
-<status status="PASS" starttime="20200306 11:59:32.826" endtime="20200306 11:59:33.127"></status>
+<msg timestamp="20200306 16:26:27.533" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:27.222" endtime="20200306 16:26:27.533"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
 <arguments>
 <arg>${dir}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:33.565" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Carga_resultados.png"&gt;&lt;img src="Tramites/Carga_resultados.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200306 11:59:33.127" endtime="20200306 11:59:33.565"></status>
+<msg timestamp="20200306 16:26:27.964" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Carga_resultados.png"&gt;&lt;img src="Tramites/Carga_resultados.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:27.533" endtime="20200306 16:26:27.964"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${print}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:33.566" level="INFO">Carga los resultados</msg>
-<status status="PASS" starttime="20200306 11:59:33.566" endtime="20200306 11:59:33.566"></status>
+<msg timestamp="20200306 16:26:27.964" level="INFO">Carga los resultados</msg>
+<status status="PASS" starttime="20200306 16:26:27.964" endtime="20200306 16:26:27.964"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:32.825" endtime="20200306 11:59:33.566"></status>
+<status status="PASS" starttime="20200306 16:26:27.222" endtime="20200306 16:26:27.964"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -379,10 +379,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:33.566" level="INFO">Clicking element 'xpath=(//a[@href='#'])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:33.566" endtime="20200306 11:59:33.822"></status>
+<msg timestamp="20200306 16:26:27.964" level="INFO">Clicking element 'xpath=(//a[@href='#'])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:27.964" endtime="20200306 16:26:28.234"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:33.566" endtime="20200306 11:59:33.822"></status>
+<status status="PASS" starttime="20200306 16:26:27.964" endtime="20200306 16:26:28.234"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -393,10 +393,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:33.823" level="INFO">Clicking element 'xpath=//a[@routerlink='/registraSolicitudTramite/18A/1/init'][contains(.,'Trámite 18A')]'.</msg>
-<status status="PASS" starttime="20200306 11:59:33.823" endtime="20200306 11:59:34.212"></status>
+<msg timestamp="20200306 16:26:28.235" level="INFO">Clicking element 'xpath=//a[@routerlink='/registraSolicitudTramite/18A/1/init'][contains(.,'Trámite 18A')]'.</msg>
+<status status="PASS" starttime="20200306 16:26:28.234" endtime="20200306 16:26:28.631"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:33.823" endtime="20200306 11:59:34.212"></status>
+<status status="PASS" starttime="20200306 16:26:28.234" endtime="20200306 16:26:28.631"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -408,12 +408,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200306 11:59:34.213" level="INFO">Executing JavaScript:
+<msg timestamp="20200306 16:26:28.632" level="INFO">Executing JavaScript:
 window.scrollTo(0,500)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200306 11:59:34.213" endtime="20200306 11:59:34.358"></status>
+<status status="PASS" starttime="20200306 16:26:28.631" endtime="20200306 16:26:28.818"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:34.213" endtime="20200306 11:59:34.358"></status>
+<status status="PASS" starttime="20200306 16:26:28.631" endtime="20200306 16:26:28.818"></status>
 </kw>
 <kw name="Resultado" library="recursos">
 <arguments>
@@ -426,26 +426,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>${tiempo}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:34.560" level="INFO">Slept 200 milliseconds</msg>
-<status status="PASS" starttime="20200306 11:59:34.359" endtime="20200306 11:59:34.560"></status>
+<msg timestamp="20200306 16:26:29.020" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:28.818" endtime="20200306 16:26:29.020"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
 <arguments>
 <arg>${dir}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:34.999" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Datos_personales.png"&gt;&lt;img src="Tramites/Datos_personales.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20200306 11:59:34.560" endtime="20200306 11:59:34.999"></status>
+<msg timestamp="20200306 16:26:29.450" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Tramites/Datos_personales.png"&gt;&lt;img src="Tramites/Datos_personales.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:29.020" endtime="20200306 16:26:29.450"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${print}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:35.000" level="INFO">Datos Personales Ok</msg>
-<status status="PASS" starttime="20200306 11:59:34.999" endtime="20200306 11:59:35.000"></status>
+<msg timestamp="20200306 16:26:29.451" level="INFO">Datos Personales Ok</msg>
+<status status="PASS" starttime="20200306 16:26:29.451" endtime="20200306 16:26:29.451"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:34.359" endtime="20200306 11:59:35.000"></status>
+<status status="PASS" starttime="20200306 16:26:28.818" endtime="20200306 16:26:29.451"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -456,12 +456,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:35.000" level="INFO">Clicking element 'xpath=//select[@formcontrolname='tipoPersona']'.</msg>
-<status status="PASS" starttime="20200306 11:59:35.000" endtime="20200306 11:59:35.272"></status>
+<msg timestamp="20200306 16:26:29.451" level="INFO">Clicking element 'xpath=//select[@formcontrolname='tipoPersona']'.</msg>
+<status status="PASS" starttime="20200306 16:26:29.451" endtime="20200306 16:26:29.722"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:35.000" endtime="20200306 11:59:35.272"></status>
+<status status="PASS" starttime="20200306 16:26:29.451" endtime="20200306 16:26:29.722"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:32.723" endtime="20200306 11:59:35.272"></status>
+<status status="PASS" starttime="20200306 16:26:27.118" endtime="20200306 16:26:29.722"></status>
 </kw>
 <kw name="${INDEX} IN RANGE [ 1 | 1000 ]" type="for">
 <kw name="${INDEX} = 1" type="foritem">
@@ -487,9 +487,9 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1} seconds</arg>
 </arguments>
-<status status="PASS" starttime="20200306 11:59:35.274" endtime="20200306 11:59:35.376"></status>
+<status status="PASS" starttime="20200306 16:26:29.724" endtime="20200306 16:26:29.826"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:35.274" endtime="20200306 11:59:35.376"></status>
+<status status="PASS" starttime="20200306 16:26:29.724" endtime="20200306 16:26:29.826"></status>
 </kw>
 <kw name="Aleatorio Curp">
 <assign>
@@ -503,8 +503,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CurrentDate}</var>
 </assign>
-<msg timestamp="20200306 11:59:35.377" level="INFO">${CurrentDate} = 2020-03-06 11:59:35.376284</msg>
-<status status="PASS" starttime="20200306 11:59:35.376" endtime="20200306 11:59:35.377"></status>
+<msg timestamp="20200306 16:26:29.827" level="INFO">${CurrentDate} = 2020-03-06 16:26:29.826517</msg>
+<status status="PASS" starttime="20200306 16:26:29.826" endtime="20200306 16:26:29.827"></status>
 </kw>
 <kw name="Convert Date" library="DateTime">
 <doc>Converts between supported `date formats`.</doc>
@@ -515,8 +515,8 @@ Without any arguments.</msg>
 <assign>
 <var>${datetime}</var>
 </assign>
-<msg timestamp="20200306 11:59:35.377" level="INFO">${datetime} = 2020-03-06 11:59:35.376284</msg>
-<status status="PASS" starttime="20200306 11:59:35.377" endtime="20200306 11:59:35.377"></status>
+<msg timestamp="20200306 16:26:29.827" level="INFO">${datetime} = 2020-03-06 16:26:29.826517</msg>
+<status status="PASS" starttime="20200306 16:26:29.827" endtime="20200306 16:26:29.827"></status>
 </kw>
 <kw name="Generate Random String" library="String">
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
@@ -527,8 +527,8 @@ Without any arguments.</msg>
 <assign>
 <var>${tex}</var>
 </assign>
-<msg timestamp="20200306 11:59:35.378" level="INFO">${tex} = DS</msg>
-<status status="PASS" starttime="20200306 11:59:35.377" endtime="20200306 11:59:35.378"></status>
+<msg timestamp="20200306 16:26:29.827" level="INFO">${tex} = CK</msg>
+<status status="PASS" starttime="20200306 16:26:29.827" endtime="20200306 16:26:29.827"></status>
 </kw>
 <kw name="Generate Random String" library="String">
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
@@ -539,11 +539,11 @@ Without any arguments.</msg>
 <assign>
 <var>${num}</var>
 </assign>
-<msg timestamp="20200306 11:59:35.378" level="INFO">${num} = 67</msg>
-<status status="PASS" starttime="20200306 11:59:35.378" endtime="20200306 11:59:35.378"></status>
+<msg timestamp="20200306 16:26:29.828" level="INFO">${num} = 40</msg>
+<status status="PASS" starttime="20200306 16:26:29.828" endtime="20200306 16:26:29.828"></status>
 </kw>
-<msg timestamp="20200306 11:59:35.378" level="INFO">${curp} = GOHJ810919HDflTD67</msg>
-<status status="PASS" starttime="20200306 11:59:35.376" endtime="20200306 11:59:35.378"></status>
+<msg timestamp="20200306 16:26:29.828" level="INFO">${curp} = GOHJ810919HDflTD40</msg>
+<status status="PASS" starttime="20200306 16:26:29.826" endtime="20200306 16:26:29.828"></status>
 </kw>
 <kw name="Click" library="recursos">
 <arguments>
@@ -554,10 +554,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>xpath=${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:35.379" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
-<status status="PASS" starttime="20200306 11:59:35.379" endtime="20200306 11:59:35.635"></status>
+<msg timestamp="20200306 16:26:29.828" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:29.828" endtime="20200306 16:26:30.079"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:35.378" endtime="20200306 11:59:35.635"></status>
+<status status="PASS" starttime="20200306 16:26:29.828" endtime="20200306 16:26:30.079"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -570,10 +570,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:35.635" level="INFO">Typing text 'GOHJ810919HDflTD67' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:35.635" endtime="20200306 11:59:36.174"></status>
+<msg timestamp="20200306 16:26:30.080" level="INFO">Typing text 'GOHJ810919HDflTD40' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:30.080" endtime="20200306 16:26:30.564"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:35.635" endtime="20200306 11:59:36.174"></status>
+<status status="PASS" starttime="20200306 16:26:30.079" endtime="20200306 16:26:30.564"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -585,12 +585,12 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200306 11:59:36.175" level="INFO">Executing JavaScript:
+<msg timestamp="20200306 16:26:30.565" level="INFO">Executing JavaScript:
 window.scrollTo(0,400)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200306 11:59:36.174" endtime="20200306 11:59:36.282"></status>
+<status status="PASS" starttime="20200306 16:26:30.564" endtime="20200306 16:26:30.670"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:36.174" endtime="20200306 11:59:36.282"></status>
+<status status="PASS" starttime="20200306 16:26:30.564" endtime="20200306 16:26:30.670"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -601,10 +601,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:36.483" level="INFO">Slept 200 milliseconds</msg>
-<status status="PASS" starttime="20200306 11:59:36.282" endtime="20200306 11:59:36.483"></status>
+<msg timestamp="20200306 16:26:30.871" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:30.671" endtime="20200306 16:26:30.871"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:36.282" endtime="20200306 11:59:36.483"></status>
+<status status="PASS" starttime="20200306 16:26:30.670" endtime="20200306 16:26:30.872"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -617,10 +617,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:36.484" level="INFO">Typing text 'GWTC840918VX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
-<status status="PASS" starttime="20200306 11:59:36.483" endtime="20200306 11:59:36.954"></status>
+<msg timestamp="20200306 16:26:30.872" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<status status="PASS" starttime="20200306 16:26:30.872" endtime="20200306 16:26:31.346"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:36.483" endtime="20200306 11:59:36.954"></status>
+<status status="PASS" starttime="20200306 16:26:30.872" endtime="20200306 16:26:31.346"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -631,10 +631,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:38.955" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200306 11:59:36.954" endtime="20200306 11:59:38.955"></status>
+<msg timestamp="20200306 16:26:33.347" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200306 16:26:31.347" endtime="20200306 16:26:33.347"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:36.954" endtime="20200306 11:59:38.955"></status>
+<status status="PASS" starttime="20200306 16:26:31.346" endtime="20200306 16:26:33.347"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -647,10 +647,31 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:38.956" level="INFO">Typing text 'GWTC840918VX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
-<status status="PASS" starttime="20200306 11:59:38.955" endtime="20200306 11:59:39.378"></status>
+<msg timestamp="20200306 16:26:33.348" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200306 16:26:33.905" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:33.481" endtime="20200306 16:26:33.905"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:38.955" endtime="20200306 11:59:39.378"></status>
+<msg timestamp="20200306 16:26:33.908" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200306 16:26:33.347" endtime="20200306 16:26:33.908"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:33.347" endtime="20200306 16:26:33.908"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:29.723" endtime="20200306 16:26:33.908"></status>
+</kw>
+<msg timestamp="20200306 16:26:33.908" level="INFO">${val} = False</msg>
+<status status="PASS" starttime="20200306 16:26:29.723" endtime="20200306 16:26:33.908"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:33.908" level="INFO">False</msg>
+<status status="PASS" starttime="20200306 16:26:33.908" endtime="20200306 16:26:33.909"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -661,10 +682,1703 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:40.379" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200306 11:59:39.378" endtime="20200306 11:59:40.379"></status>
+<msg timestamp="20200306 16:26:34.909" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:33.909" endtime="20200306 16:26:34.909"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:39.378" endtime="20200306 11:59:40.379"></status>
+<status status="PASS" starttime="20200306 16:26:33.909" endtime="20200306 16:26:34.909"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${val}'=='True'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:34.909" endtime="20200306 16:26:34.909"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:29.723" endtime="20200306 16:26:34.909"></status>
+</kw>
+<kw name="${INDEX} = 2" type="foritem">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Datos Personales Excel</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<assign>
+<var>${val}</var>
+</assign>
+<kw name="Datos Personales Excel" library="casos">
+<arguments>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:34.910" endtime="20200306 16:26:35.012"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:34.910" endtime="20200306 16:26:35.012"></status>
+</kw>
+<kw name="Aleatorio Curp">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200306 16:26:35.013" level="INFO">${CurrentDate} = 2020-03-06 16:26:35.013253</msg>
+<status status="PASS" starttime="20200306 16:26:35.012" endtime="20200306 16:26:35.013"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200306 16:26:35.013" level="INFO">${datetime} = 2020-03-06 16:26:35.013253</msg>
+<status status="PASS" starttime="20200306 16:26:35.013" endtime="20200306 16:26:35.013"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200306 16:26:35.013" level="INFO">${tex} = GL</msg>
+<status status="PASS" starttime="20200306 16:26:35.013" endtime="20200306 16:26:35.013"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200306 16:26:35.014" level="INFO">${num} = 16</msg>
+<status status="PASS" starttime="20200306 16:26:35.014" endtime="20200306 16:26:35.014"></status>
+</kw>
+<msg timestamp="20200306 16:26:35.014" level="INFO">${curp} = GOHJ810919HDflTD16</msg>
+<status status="PASS" starttime="20200306 16:26:35.012" endtime="20200306 16:26:35.014"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:35.014" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:35.014" endtime="20200306 16:26:35.239"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:35.014" endtime="20200306 16:26:35.240"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:35.241" level="INFO">Typing text 'GOHJ810919HDflTD16' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:35.241" endtime="20200306 16:26:35.761"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:35.240" endtime="20200306 16:26:35.761"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:26:35.762" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:26:35.761" endtime="20200306 16:26:35.867"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:35.761" endtime="20200306 16:26:35.867"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:36.071" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:35.867" endtime="20200306 16:26:36.071"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:35.867" endtime="20200306 16:26:36.071"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:36.071" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200306 16:26:36.639" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-13.png"&gt;&lt;img src="selenium-screenshot-13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:36.202" endtime="20200306 16:26:36.639"></status>
+</kw>
+<msg timestamp="20200306 16:26:36.639" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200306 16:26:36.071" endtime="20200306 16:26:36.639"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:36.071" endtime="20200306 16:26:36.639"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:34.910" endtime="20200306 16:26:36.639"></status>
+</kw>
+<msg timestamp="20200306 16:26:36.639" level="INFO">${val} = False</msg>
+<status status="PASS" starttime="20200306 16:26:34.910" endtime="20200306 16:26:36.639"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:36.639" level="INFO">False</msg>
+<status status="PASS" starttime="20200306 16:26:36.639" endtime="20200306 16:26:36.639"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:37.650" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:36.639" endtime="20200306 16:26:37.650"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:36.639" endtime="20200306 16:26:37.650"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${val}'=='True'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:37.650" endtime="20200306 16:26:37.650"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:34.909" endtime="20200306 16:26:37.650"></status>
+</kw>
+<kw name="${INDEX} = 3" type="foritem">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Datos Personales Excel</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<assign>
+<var>${val}</var>
+</assign>
+<kw name="Datos Personales Excel" library="casos">
+<arguments>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:37.650" endtime="20200306 16:26:37.750"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:37.650" endtime="20200306 16:26:37.750"></status>
+</kw>
+<kw name="Aleatorio Curp">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200306 16:26:37.753" level="INFO">${CurrentDate} = 2020-03-06 16:26:37.752407</msg>
+<status status="PASS" starttime="20200306 16:26:37.752" endtime="20200306 16:26:37.753"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200306 16:26:37.755" level="INFO">${datetime} = 2020-03-06 16:26:37.752407</msg>
+<status status="PASS" starttime="20200306 16:26:37.754" endtime="20200306 16:26:37.755"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200306 16:26:37.756" level="INFO">${tex} = NS</msg>
+<status status="PASS" starttime="20200306 16:26:37.755" endtime="20200306 16:26:37.756"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200306 16:26:37.757" level="INFO">${num} = 43</msg>
+<status status="PASS" starttime="20200306 16:26:37.756" endtime="20200306 16:26:37.757"></status>
+</kw>
+<msg timestamp="20200306 16:26:37.757" level="INFO">${curp} = GOHJ810919HDflTD43</msg>
+<status status="PASS" starttime="20200306 16:26:37.751" endtime="20200306 16:26:37.757"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:37.759" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:37.759" endtime="20200306 16:26:37.998"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:37.758" endtime="20200306 16:26:37.998"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:37.999" level="INFO">Typing text 'GOHJ810919HDflTD43' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:37.998" endtime="20200306 16:26:38.510"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:37.998" endtime="20200306 16:26:38.510"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:26:38.512" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:26:38.511" endtime="20200306 16:26:38.616"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:38.510" endtime="20200306 16:26:38.616"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:38.816" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:38.616" endtime="20200306 16:26:38.816"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:38.616" endtime="20200306 16:26:38.816"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:38.817" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<status status="PASS" starttime="20200306 16:26:38.817" endtime="20200306 16:26:39.269"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:38.816" endtime="20200306 16:26:39.269"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:41.279" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200306 16:26:39.269" endtime="20200306 16:26:41.279"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:39.269" endtime="20200306 16:26:41.279"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:41.279" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200306 16:26:41.855" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:41.406" endtime="20200306 16:26:41.855"></status>
+</kw>
+<msg timestamp="20200306 16:26:41.855" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200306 16:26:41.279" endtime="20200306 16:26:41.856"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:41.279" endtime="20200306 16:26:41.856"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:37.650" endtime="20200306 16:26:41.856"></status>
+</kw>
+<msg timestamp="20200306 16:26:41.856" level="INFO">${val} = False</msg>
+<status status="PASS" starttime="20200306 16:26:37.650" endtime="20200306 16:26:41.856"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:41.856" level="INFO">False</msg>
+<status status="PASS" starttime="20200306 16:26:41.856" endtime="20200306 16:26:41.856"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:42.861" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:41.857" endtime="20200306 16:26:42.861"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:41.857" endtime="20200306 16:26:42.861"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${val}'=='True'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:42.861" endtime="20200306 16:26:42.861"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:37.650" endtime="20200306 16:26:42.861"></status>
+</kw>
+<kw name="${INDEX} = 4" type="foritem">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Datos Personales Excel</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<assign>
+<var>${val}</var>
+</assign>
+<kw name="Datos Personales Excel" library="casos">
+<arguments>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:42.861" endtime="20200306 16:26:42.971"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:42.861" endtime="20200306 16:26:42.971"></status>
+</kw>
+<kw name="Aleatorio Curp">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200306 16:26:42.971" level="INFO">${CurrentDate} = 2020-03-06 16:26:42.970653</msg>
+<status status="PASS" starttime="20200306 16:26:42.971" endtime="20200306 16:26:42.971"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200306 16:26:42.971" level="INFO">${datetime} = 2020-03-06 16:26:42.970653</msg>
+<status status="PASS" starttime="20200306 16:26:42.971" endtime="20200306 16:26:42.971"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200306 16:26:42.971" level="INFO">${tex} = IR</msg>
+<status status="PASS" starttime="20200306 16:26:42.971" endtime="20200306 16:26:42.971"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200306 16:26:42.971" level="INFO">${num} = 65</msg>
+<status status="PASS" starttime="20200306 16:26:42.971" endtime="20200306 16:26:42.971"></status>
+</kw>
+<msg timestamp="20200306 16:26:42.971" level="INFO">${curp} = GOHJ810919HDflTD65</msg>
+<status status="PASS" starttime="20200306 16:26:42.971" endtime="20200306 16:26:42.971"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:42.971" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:42.971" endtime="20200306 16:26:43.214"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:42.971" endtime="20200306 16:26:43.214"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:43.214" level="INFO">Typing text 'GOHJ810919HDflTD65' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:43.214" endtime="20200306 16:26:43.746"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:43.214" endtime="20200306 16:26:43.746"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:26:43.747" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:26:43.746" endtime="20200306 16:26:43.853"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:43.746" endtime="20200306 16:26:43.853"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:44.067" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:43.854" endtime="20200306 16:26:44.067"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:43.854" endtime="20200306 16:26:44.067"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:44.067" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200306 16:26:44.633" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-15.png"&gt;&lt;img src="selenium-screenshot-15.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:44.195" endtime="20200306 16:26:44.634"></status>
+</kw>
+<msg timestamp="20200306 16:26:44.634" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200306 16:26:44.067" endtime="20200306 16:26:44.634"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:44.067" endtime="20200306 16:26:44.634"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:42.861" endtime="20200306 16:26:44.635"></status>
+</kw>
+<msg timestamp="20200306 16:26:44.635" level="INFO">${val} = False</msg>
+<status status="PASS" starttime="20200306 16:26:42.861" endtime="20200306 16:26:44.635"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:44.635" level="INFO">False</msg>
+<status status="PASS" starttime="20200306 16:26:44.635" endtime="20200306 16:26:44.635"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:45.648" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:44.635" endtime="20200306 16:26:45.648"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:44.635" endtime="20200306 16:26:45.648"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${val}'=='True'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:45.648" endtime="20200306 16:26:45.648"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:42.861" endtime="20200306 16:26:45.648"></status>
+</kw>
+<kw name="${INDEX} = 5" type="foritem">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Datos Personales Excel</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<assign>
+<var>${val}</var>
+</assign>
+<kw name="Datos Personales Excel" library="casos">
+<arguments>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:45.648" endtime="20200306 16:26:45.758"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:45.648" endtime="20200306 16:26:45.758"></status>
+</kw>
+<kw name="Aleatorio Curp">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200306 16:26:45.758" level="INFO">${CurrentDate} = 2020-03-06 16:26:45.757745</msg>
+<status status="PASS" starttime="20200306 16:26:45.758" endtime="20200306 16:26:45.758"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200306 16:26:45.758" level="INFO">${datetime} = 2020-03-06 16:26:45.757745</msg>
+<status status="PASS" starttime="20200306 16:26:45.758" endtime="20200306 16:26:45.758"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200306 16:26:45.758" level="INFO">${tex} = HW</msg>
+<status status="PASS" starttime="20200306 16:26:45.758" endtime="20200306 16:26:45.758"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200306 16:26:45.758" level="INFO">${num} = 58</msg>
+<status status="PASS" starttime="20200306 16:26:45.758" endtime="20200306 16:26:45.758"></status>
+</kw>
+<msg timestamp="20200306 16:26:45.758" level="INFO">${curp} = GOHJ810919HDflTD58</msg>
+<status status="PASS" starttime="20200306 16:26:45.758" endtime="20200306 16:26:45.758"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:45.758" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:45.758" endtime="20200306 16:26:46.000"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:45.758" endtime="20200306 16:26:46.000"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:46.001" level="INFO">Typing text 'GOHJ810919HDflTD58' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:46.000" endtime="20200306 16:26:46.485"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:46.000" endtime="20200306 16:26:46.485"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:26:46.486" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:26:46.486" endtime="20200306 16:26:46.592"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:46.485" endtime="20200306 16:26:46.592"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:46.801" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:46.592" endtime="20200306 16:26:46.801"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:46.592" endtime="20200306 16:26:46.801"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:46.801" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200306 16:26:47.404" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-16.png"&gt;&lt;img src="selenium-screenshot-16.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:46.934" endtime="20200306 16:26:47.404"></status>
+</kw>
+<msg timestamp="20200306 16:26:47.405" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200306 16:26:46.801" endtime="20200306 16:26:47.405"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:46.801" endtime="20200306 16:26:47.405"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:45.648" endtime="20200306 16:26:47.405"></status>
+</kw>
+<msg timestamp="20200306 16:26:47.405" level="INFO">${val} = False</msg>
+<status status="PASS" starttime="20200306 16:26:45.648" endtime="20200306 16:26:47.405"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:47.406" level="INFO">False</msg>
+<status status="PASS" starttime="20200306 16:26:47.406" endtime="20200306 16:26:47.406"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:48.410" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:47.406" endtime="20200306 16:26:48.410"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:47.406" endtime="20200306 16:26:48.410"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${val}'=='True'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:48.410" endtime="20200306 16:26:48.410"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:45.648" endtime="20200306 16:26:48.410"></status>
+</kw>
+<kw name="${INDEX} = 6" type="foritem">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Datos Personales Excel</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<assign>
+<var>${val}</var>
+</assign>
+<kw name="Datos Personales Excel" library="casos">
+<arguments>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:48.410" endtime="20200306 16:26:48.510"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:48.410" endtime="20200306 16:26:48.510"></status>
+</kw>
+<kw name="Aleatorio Curp">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200306 16:26:48.510" level="INFO">${CurrentDate} = 2020-03-06 16:26:48.510485</msg>
+<status status="PASS" starttime="20200306 16:26:48.510" endtime="20200306 16:26:48.510"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200306 16:26:48.511" level="INFO">${datetime} = 2020-03-06 16:26:48.510485</msg>
+<status status="PASS" starttime="20200306 16:26:48.510" endtime="20200306 16:26:48.511"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200306 16:26:48.512" level="INFO">${tex} = IB</msg>
+<status status="PASS" starttime="20200306 16:26:48.511" endtime="20200306 16:26:48.512"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200306 16:26:48.513" level="INFO">${num} = 54</msg>
+<status status="PASS" starttime="20200306 16:26:48.512" endtime="20200306 16:26:48.513"></status>
+</kw>
+<msg timestamp="20200306 16:26:48.513" level="INFO">${curp} = GOHJ810919HDflTD54</msg>
+<status status="PASS" starttime="20200306 16:26:48.510" endtime="20200306 16:26:48.513"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:48.514" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:48.514" endtime="20200306 16:26:48.747"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:48.513" endtime="20200306 16:26:48.747"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:48.748" level="INFO">Typing text 'GOHJ810919HDflTD54' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:48.747" endtime="20200306 16:26:49.263"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:48.747" endtime="20200306 16:26:49.263"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:26:49.264" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:26:49.263" endtime="20200306 16:26:49.375"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:49.263" endtime="20200306 16:26:49.375"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:49.575" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:49.375" endtime="20200306 16:26:49.575"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:49.375" endtime="20200306 16:26:49.575"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:49.576" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<status status="PASS" starttime="20200306 16:26:49.576" endtime="20200306 16:26:50.033"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:49.575" endtime="20200306 16:26:50.033"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:52.041" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200306 16:26:50.033" endtime="20200306 16:26:52.041"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:50.033" endtime="20200306 16:26:52.041"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:52.041" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200306 16:26:52.606" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-17.png"&gt;&lt;img src="selenium-screenshot-17.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:52.170" endtime="20200306 16:26:52.606"></status>
+</kw>
+<msg timestamp="20200306 16:26:52.606" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200306 16:26:52.041" endtime="20200306 16:26:52.606"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:52.041" endtime="20200306 16:26:52.606"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:48.410" endtime="20200306 16:26:52.606"></status>
+</kw>
+<msg timestamp="20200306 16:26:52.606" level="INFO">${val} = False</msg>
+<status status="PASS" starttime="20200306 16:26:48.410" endtime="20200306 16:26:52.606"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:52.606" level="INFO">False</msg>
+<status status="PASS" starttime="20200306 16:26:52.606" endtime="20200306 16:26:52.606"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:53.616" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:52.606" endtime="20200306 16:26:53.616"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:52.606" endtime="20200306 16:26:53.616"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${val}'=='True'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:53.616" endtime="20200306 16:26:53.616"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:48.410" endtime="20200306 16:26:53.616"></status>
+</kw>
+<kw name="${INDEX} = 7" type="foritem">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Datos Personales Excel</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<assign>
+<var>${val}</var>
+</assign>
+<kw name="Datos Personales Excel" library="casos">
+<arguments>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:53.616" endtime="20200306 16:26:53.725"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:53.616" endtime="20200306 16:26:53.725"></status>
+</kw>
+<kw name="Aleatorio Curp">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200306 16:26:53.725" level="INFO">${CurrentDate} = 2020-03-06 16:26:53.725490</msg>
+<status status="PASS" starttime="20200306 16:26:53.725" endtime="20200306 16:26:53.725"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200306 16:26:53.726" level="INFO">${datetime} = 2020-03-06 16:26:53.725490</msg>
+<status status="PASS" starttime="20200306 16:26:53.726" endtime="20200306 16:26:53.726"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200306 16:26:53.727" level="INFO">${tex} = DZ</msg>
+<status status="PASS" starttime="20200306 16:26:53.726" endtime="20200306 16:26:53.727"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200306 16:26:53.727" level="INFO">${num} = 40</msg>
+<status status="PASS" starttime="20200306 16:26:53.727" endtime="20200306 16:26:53.727"></status>
+</kw>
+<msg timestamp="20200306 16:26:53.729" level="INFO">${curp} = GOHJ810919HDflTD40</msg>
+<status status="PASS" starttime="20200306 16:26:53.725" endtime="20200306 16:26:53.729"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:53.730" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:53.729" endtime="20200306 16:26:53.955"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:53.729" endtime="20200306 16:26:53.955"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:53.956" level="INFO">Typing text 'GOHJ810919HDflTD40' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:53.955" endtime="20200306 16:26:54.441"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:53.955" endtime="20200306 16:26:54.441"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:26:54.442" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:26:54.441" endtime="20200306 16:26:54.547"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:54.441" endtime="20200306 16:26:54.547"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:54.761" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:54.548" endtime="20200306 16:26:54.761"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:54.547" endtime="20200306 16:26:54.761"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:54.761" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200306 16:26:55.318" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-18.png"&gt;&lt;img src="selenium-screenshot-18.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:54.890" endtime="20200306 16:26:55.318"></status>
+</kw>
+<msg timestamp="20200306 16:26:55.318" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200306 16:26:54.761" endtime="20200306 16:26:55.318"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:54.761" endtime="20200306 16:26:55.318"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:53.616" endtime="20200306 16:26:55.318"></status>
+</kw>
+<msg timestamp="20200306 16:26:55.318" level="INFO">${val} = False</msg>
+<status status="PASS" starttime="20200306 16:26:53.616" endtime="20200306 16:26:55.318"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:55.318" level="INFO">False</msg>
+<status status="PASS" starttime="20200306 16:26:55.318" endtime="20200306 16:26:55.318"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:56.328" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:55.318" endtime="20200306 16:26:56.328"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:55.318" endtime="20200306 16:26:56.328"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${val}'=='True'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:56.328" endtime="20200306 16:26:56.328"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:53.616" endtime="20200306 16:26:56.328"></status>
+</kw>
+<kw name="${INDEX} = 8" type="foritem">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Datos Personales Excel</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<assign>
+<var>${val}</var>
+</assign>
+<kw name="Datos Personales Excel" library="casos">
+<arguments>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:56.328" endtime="20200306 16:26:56.437"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:56.328" endtime="20200306 16:26:56.437"></status>
+</kw>
+<kw name="Aleatorio Curp">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200306 16:26:56.437" level="INFO">${CurrentDate} = 2020-03-06 16:26:56.437409</msg>
+<status status="PASS" starttime="20200306 16:26:56.437" endtime="20200306 16:26:56.437"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200306 16:26:56.437" level="INFO">${datetime} = 2020-03-06 16:26:56.437409</msg>
+<status status="PASS" starttime="20200306 16:26:56.437" endtime="20200306 16:26:56.437"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200306 16:26:56.437" level="INFO">${tex} = DO</msg>
+<status status="PASS" starttime="20200306 16:26:56.437" endtime="20200306 16:26:56.437"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200306 16:26:56.437" level="INFO">${num} = 81</msg>
+<status status="PASS" starttime="20200306 16:26:56.437" endtime="20200306 16:26:56.437"></status>
+</kw>
+<msg timestamp="20200306 16:26:56.437" level="INFO">${curp} = GOHJ810919HDflTD81</msg>
+<status status="PASS" starttime="20200306 16:26:56.437" endtime="20200306 16:26:56.437"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:56.437" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:56.437" endtime="20200306 16:26:56.661"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:56.437" endtime="20200306 16:26:56.661"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:56.661" level="INFO">Typing text 'GOHJ810919HDflTD81' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:56.661" endtime="20200306 16:26:57.138"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:56.661" endtime="20200306 16:26:57.138"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:26:57.140" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:26:57.139" endtime="20200306 16:26:57.245"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:57.138" endtime="20200306 16:26:57.245"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:57.452" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:26:57.246" endtime="20200306 16:26:57.452"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:57.245" endtime="20200306 16:26:57.452"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:57.452" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200306 16:26:58.051" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-19.png"&gt;&lt;img src="selenium-screenshot-19.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200306 16:26:57.565" endtime="20200306 16:26:58.051"></status>
+</kw>
+<msg timestamp="20200306 16:26:58.052" level="FAIL">InvalidElementStateException: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200306 16:26:57.452" endtime="20200306 16:26:58.052"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:57.452" endtime="20200306 16:26:58.052"></status>
+</kw>
+<status status="FAIL" starttime="20200306 16:26:56.328" endtime="20200306 16:26:58.053"></status>
+</kw>
+<msg timestamp="20200306 16:26:58.053" level="INFO">${val} = False</msg>
+<status status="PASS" starttime="20200306 16:26:56.328" endtime="20200306 16:26:58.053"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:58.053" level="INFO">False</msg>
+<status status="PASS" starttime="20200306 16:26:58.053" endtime="20200306 16:26:58.053"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:59.057" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:26:58.054" endtime="20200306 16:26:59.057"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:58.053" endtime="20200306 16:26:59.057"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${val}'=='True'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:59.057" endtime="20200306 16:26:59.057"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:56.328" endtime="20200306 16:26:59.057"></status>
+</kw>
+<kw name="${INDEX} = 9" type="foritem">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Datos Personales Excel</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<assign>
+<var>${val}</var>
+</assign>
+<kw name="Datos Personales Excel" library="casos">
+<arguments>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:26:59.057" endtime="20200306 16:26:59.158"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:59.057" endtime="20200306 16:26:59.158"></status>
+</kw>
+<kw name="Aleatorio Curp">
+<assign>
+<var>${curp}</var>
+</assign>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<arguments>
+<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
+</arguments>
+<assign>
+<var>${CurrentDate}</var>
+</assign>
+<msg timestamp="20200306 16:26:59.158" level="INFO">${CurrentDate} = 2020-03-06 16:26:59.158283</msg>
+<status status="PASS" starttime="20200306 16:26:59.158" endtime="20200306 16:26:59.158"></status>
+</kw>
+<kw name="Convert Date" library="DateTime">
+<doc>Converts between supported `date formats`.</doc>
+<arguments>
+<arg>${CurrentDate}</arg>
+<arg>datetime</arg>
+</arguments>
+<assign>
+<var>${datetime}</var>
+</assign>
+<msg timestamp="20200306 16:26:59.159" level="INFO">${datetime} = 2020-03-06 16:26:59.158283</msg>
+<status status="PASS" starttime="20200306 16:26:59.159" endtime="20200306 16:26:59.159"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[UPPER]</arg>
+</arguments>
+<assign>
+<var>${tex}</var>
+</assign>
+<msg timestamp="20200306 16:26:59.161" level="INFO">${tex} = ZS</msg>
+<status status="PASS" starttime="20200306 16:26:59.160" endtime="20200306 16:26:59.161"></status>
+</kw>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>2</arg>
+<arg>[NUMBERS]</arg>
+</arguments>
+<assign>
+<var>${num}</var>
+</assign>
+<msg timestamp="20200306 16:26:59.161" level="INFO">${num} = 38</msg>
+<status status="PASS" starttime="20200306 16:26:59.161" endtime="20200306 16:26:59.162"></status>
+</kw>
+<msg timestamp="20200306 16:26:59.162" level="INFO">${curp} = GOHJ810919HDflTD38</msg>
+<status status="PASS" starttime="20200306 16:26:59.158" endtime="20200306 16:26:59.162"></status>
+</kw>
+<kw name="Click" library="recursos">
+<arguments>
+<arg>//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:59.163" level="INFO">Clicking element 'xpath=//*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]'.</msg>
+<status status="PASS" starttime="20200306 16:26:59.163" endtime="20200306 16:26:59.395"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:59.162" endtime="20200306 16:26:59.395"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'curp')])[1]</arg>
+<arg>${curp}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:26:59.396" level="INFO">Typing text 'GOHJ810919HDflTD38' into text field 'xpath=(//input[contains(@formcontrolname,'curp')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:26:59.396" endtime="20200306 16:26:59.903"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:59.395" endtime="20200306 16:26:59.903"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>400</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:26:59.904" level="INFO">Executing JavaScript:
+window.scrollTo(0,400)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:26:59.904" endtime="20200306 16:27:00.010"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:26:59.903" endtime="20200306 16:27:00.010"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:00.211" level="INFO">Slept 200 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:00.010" endtime="20200306 16:27:00.211"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:00.010" endtime="20200306 16:27:00.211"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:00.212" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<status status="PASS" starttime="20200306 16:27:00.211" endtime="20200306 16:27:00.671"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:00.211" endtime="20200306 16:27:00.671"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>2</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:02.672" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200306 16:27:00.672" endtime="20200306 16:27:02.672"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:00.671" endtime="20200306 16:27:02.673"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>//input[@formcontrolname='rfc']</arg>
+<arg>${claverfc}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:02.673" level="INFO">Typing text 'TJIC840918WX0' into text field 'xpath=//input[@formcontrolname='rfc']'.</msg>
+<status status="PASS" starttime="20200306 16:27:02.673" endtime="20200306 16:27:03.113"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:02.673" endtime="20200306 16:27:03.113"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>1</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:04.115" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:27:03.114" endtime="20200306 16:27:04.115"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:03.113" endtime="20200306 16:27:04.115"></status>
 </kw>
 <kw name="Scroll" library="recursos">
 <arguments>
@@ -676,25 +2390,25 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${arg1},${arg2})</arg>
 </arguments>
-<msg timestamp="20200306 11:59:40.380" level="INFO">Executing JavaScript:
+<msg timestamp="20200306 16:27:04.115" level="INFO">Executing JavaScript:
 window.scrollTo(0,600)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200306 11:59:40.379" endtime="20200306 11:59:40.486"></status>
+<status status="PASS" starttime="20200306 16:27:04.115" endtime="20200306 16:27:04.222"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:40.379" endtime="20200306 11:59:40.486"></status>
+<status status="PASS" starttime="20200306 16:27:04.115" endtime="20200306 16:27:04.222"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:35.273" endtime="20200306 11:59:40.486"></status>
+<status status="PASS" starttime="20200306 16:26:59.057" endtime="20200306 16:27:04.223"></status>
 </kw>
-<msg timestamp="20200306 11:59:40.486" level="INFO">${val} = True</msg>
-<status status="PASS" starttime="20200306 11:59:35.273" endtime="20200306 11:59:40.486"></status>
+<msg timestamp="20200306 16:27:04.223" level="INFO">${val} = True</msg>
+<status status="PASS" starttime="20200306 16:26:59.057" endtime="20200306 16:27:04.223"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${val}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:40.486" level="INFO">True</msg>
-<status status="PASS" starttime="20200306 11:59:40.486" endtime="20200306 11:59:40.487"></status>
+<msg timestamp="20200306 16:27:04.223" level="INFO">True</msg>
+<status status="PASS" starttime="20200306 16:27:04.223" endtime="20200306 16:27:04.223"></status>
 </kw>
 <kw name="Dormir" library="recursos">
 <arguments>
@@ -705,10 +2419,10 @@ Without any arguments.</msg>
 <arguments>
 <arg>${arg1}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:41.489" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200306 11:59:40.487" endtime="20200306 11:59:41.489"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200306 16:27:04.224" endtime="20200306 16:27:05.227"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:40.487" endtime="20200306 11:59:41.489"></status>
+<status status="PASS" starttime="20200306 16:27:04.224" endtime="20200306 16:27:05.227"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -718,14 +2432,14 @@ Without any arguments.</msg>
 </arguments>
 <kw name="Exit For Loop" library="BuiltIn">
 <doc>Stops executing the enclosing for loop.</doc>
-<msg timestamp="20200306 11:59:41.490" level="INFO">Exiting for loop altogether.</msg>
-<status status="PASS" starttime="20200306 11:59:41.489" endtime="20200306 11:59:41.490"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:41.489" endtime="20200306 11:59:41.490"></status>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:35.273" endtime="20200306 11:59:41.490"></status>
+<status status="PASS" starttime="20200306 16:26:59.057" endtime="20200306 16:27:05.227"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:35.273" endtime="20200306 11:59:41.490"></status>
+<status status="PASS" starttime="20200306 16:26:29.723" endtime="20200306 16:27:05.227"></status>
 </kw>
 <kw name="Leer numero de filas" library="recursos">
 <arguments>
@@ -741,11 +2455,11 @@ Without any arguments.</msg>
 <assign>
 <var>${maxr}</var>
 </assign>
-<msg timestamp="20200306 11:59:41.491" level="INFO">${maxr} = 2</msg>
-<status status="PASS" starttime="20200306 11:59:41.491" endtime="20200306 11:59:41.491"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${maxr} = 4</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
-<msg timestamp="20200306 11:59:41.491" level="INFO">${rows} = 2</msg>
-<status status="PASS" starttime="20200306 11:59:41.490" endtime="20200306 11:59:41.491"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${rows} = 4</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
 <kw name="${i} IN RANGE [ 1 | ${rows}+1 ]" type="for">
 <kw name="${i} = 1" type="foritem">
@@ -767,11 +2481,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:41.492" level="INFO">${celldata} = rodrigo</msg>
-<status status="PASS" starttime="20200306 11:59:41.492" endtime="20200306 11:59:41.492"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${celldata} = rodrigo</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
-<msg timestamp="20200306 11:59:41.492" level="INFO">${nombre} = rodrigo</msg>
-<status status="PASS" starttime="20200306 11:59:41.492" endtime="20200306 11:59:41.492"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${nombre} = rodrigo</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -791,11 +2505,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:41.493" level="INFO">${celldata} = villanueva</msg>
-<status status="PASS" starttime="20200306 11:59:41.493" endtime="20200306 11:59:41.493"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${celldata} = villanueva</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
-<msg timestamp="20200306 11:59:41.493" level="INFO">${ap} = villanueva</msg>
-<status status="PASS" starttime="20200306 11:59:41.493" endtime="20200306 11:59:41.493"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${ap} = villanueva</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -815,11 +2529,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:41.494" level="INFO">${celldata} = nieto</msg>
-<status status="PASS" starttime="20200306 11:59:41.494" endtime="20200306 11:59:41.494"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${celldata} = nieto</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
-<msg timestamp="20200306 11:59:41.494" level="INFO">${am} = nieto</msg>
-<status status="PASS" starttime="20200306 11:59:41.493" endtime="20200306 11:59:41.494"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${am} = nieto</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -839,11 +2553,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:41.496" level="INFO">${celldata} = 55</msg>
-<status status="PASS" starttime="20200306 11:59:41.494" endtime="20200306 11:59:41.496"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${celldata} = 55</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
-<msg timestamp="20200306 11:59:41.496" level="INFO">${lada} = 55</msg>
-<status status="PASS" starttime="20200306 11:59:41.494" endtime="20200306 11:59:41.496"></status>
+<msg timestamp="20200306 16:27:05.227" level="INFO">${lada} = 55</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.227"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -863,11 +2577,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:41.497" level="INFO">${celldata} = 5646342</msg>
-<status status="PASS" starttime="20200306 11:59:41.497" endtime="20200306 11:59:41.497"></status>
+<msg timestamp="20200306 16:27:05.244" level="INFO">${celldata} = 5646342</msg>
+<status status="PASS" starttime="20200306 16:27:05.243" endtime="20200306 16:27:05.244"></status>
 </kw>
-<msg timestamp="20200306 11:59:41.497" level="INFO">${tel_fijo} = 5646342</msg>
-<status status="PASS" starttime="20200306 11:59:41.496" endtime="20200306 11:59:41.497"></status>
+<msg timestamp="20200306 16:27:05.244" level="INFO">${tel_fijo} = 5646342</msg>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:05.245"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -887,11 +2601,163 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:41.498" level="INFO">${celldata} = 23</msg>
-<status status="PASS" starttime="20200306 11:59:41.497" endtime="20200306 11:59:41.498"></status>
+<msg timestamp="20200306 16:27:05.247" level="INFO">${celldata} = 23</msg>
+<status status="PASS" starttime="20200306 16:27:05.246" endtime="20200306 16:27:05.247"></status>
 </kw>
-<msg timestamp="20200306 11:59:41.498" level="INFO">${extension} = 23</msg>
-<status status="PASS" starttime="20200306 11:59:41.497" endtime="20200306 11:59:41.498"></status>
+<msg timestamp="20200306 16:27:05.247" level="INFO">${extension} = 23</msg>
+<status status="PASS" starttime="20200306 16:27:05.245" endtime="20200306 16:27:05.247"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>7</arg>
+</arguments>
+<assign>
+<var>${fax}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:05.249" level="INFO">${celldata} = 45</msg>
+<status status="PASS" starttime="20200306 16:27:05.248" endtime="20200306 16:27:05.249"></status>
+</kw>
+<msg timestamp="20200306 16:27:05.250" level="INFO">${fax} = 45</msg>
+<status status="PASS" starttime="20200306 16:27:05.248" endtime="20200306 16:27:05.250"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>8</arg>
+</arguments>
+<assign>
+<var>${email_uno}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:05.251" level="INFO">${celldata} = rodrigo@gmail.com1</msg>
+<status status="PASS" starttime="20200306 16:27:05.251" endtime="20200306 16:27:05.251"></status>
+</kw>
+<msg timestamp="20200306 16:27:05.252" level="INFO">${email_uno} = rodrigo@gmail.com1</msg>
+<status status="PASS" starttime="20200306 16:27:05.250" endtime="20200306 16:27:05.252"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>9</arg>
+</arguments>
+<assign>
+<var>${email_dos}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:05.254" level="INFO">${celldata} = alternativo@gmail.com1</msg>
+<status status="PASS" starttime="20200306 16:27:05.253" endtime="20200306 16:27:05.254"></status>
+</kw>
+<msg timestamp="20200306 16:27:05.254" level="INFO">${email_dos} = alternativo@gmail.com1</msg>
+<status status="PASS" starttime="20200306 16:27:05.252" endtime="20200306 16:27:05.254"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${actividad}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:05.256" level="INFO">${celldata} = ELABORADOR</msg>
+<status status="PASS" starttime="20200306 16:27:05.255" endtime="20200306 16:27:05.256"></status>
+</kw>
+<msg timestamp="20200306 16:27:05.256" level="INFO">${actividad} = ELABORADOR</msg>
+<status status="PASS" starttime="20200306 16:27:05.254" endtime="20200306 16:27:05.256"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actividad}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:05.256" level="INFO">ELABORADOR</msg>
+<status status="PASS" starttime="20200306 16:27:05.256" endtime="20200306 16:27:05.256"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>11</arg>
+</arguments>
+<assign>
+<var>${materia}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:05.257" level="INFO">${celldata} = SALES PURAS ANTIMICROBIANAS</msg>
+<status status="PASS" starttime="20200306 16:27:05.257" endtime="20200306 16:27:05.258"></status>
+</kw>
+<msg timestamp="20200306 16:27:05.258" level="INFO">${materia} = SALES PURAS ANTIMICROBIANAS</msg>
+<status status="PASS" starttime="20200306 16:27:05.257" endtime="20200306 16:27:05.258"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>12</arg>
+</arguments>
+<assign>
+<var>${funcion}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:05.259" level="INFO">${celldata} = ALMACENAR</msg>
+<status status="PASS" starttime="20200306 16:27:05.259" endtime="20200306 16:27:05.259"></status>
+</kw>
+<msg timestamp="20200306 16:27:05.259" level="INFO">${funcion} = ALMACENAR</msg>
+<status status="PASS" starttime="20200306 16:27:05.258" endtime="20200306 16:27:05.259"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -904,10 +2770,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:41.498" level="INFO">Typing text 'rodrigo' into text field 'xpath=(//input[contains(@formcontrolname,'nombre')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:41.498" endtime="20200306 11:59:41.925"></status>
+<msg timestamp="20200306 16:27:05.260" level="INFO">Typing text 'rodrigo' into text field 'xpath=(//input[contains(@formcontrolname,'nombre')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:05.260" endtime="20200306 16:27:05.675"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:41.498" endtime="20200306 11:59:41.925"></status>
+<status status="PASS" starttime="20200306 16:27:05.259" endtime="20200306 16:27:05.675"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -920,10 +2786,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:41.926" level="INFO">Typing text 'villanueva' into text field 'xpath=(//input[contains(@formcontrolname,'primerApellido')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:41.926" endtime="20200306 11:59:42.356"></status>
+<msg timestamp="20200306 16:27:05.675" level="INFO">Typing text 'villanueva' into text field 'xpath=(//input[contains(@formcontrolname,'primerApellido')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:05.675" endtime="20200306 16:27:06.099"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:41.925" endtime="20200306 11:59:42.356"></status>
+<status status="PASS" starttime="20200306 16:27:05.675" endtime="20200306 16:27:06.099"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -936,10 +2802,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:42.357" level="INFO">Typing text 'nieto' into text field 'xpath=(//input[contains(@formcontrolname,'segundoApellido')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:42.357" endtime="20200306 11:59:42.754"></status>
+<msg timestamp="20200306 16:27:06.100" level="INFO">Typing text 'nieto' into text field 'xpath=(//input[contains(@formcontrolname,'segundoApellido')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:06.100" endtime="20200306 16:27:06.508"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:42.356" endtime="20200306 11:59:42.754"></status>
+<status status="PASS" starttime="20200306 16:27:06.099" endtime="20200306 16:27:06.508"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -952,10 +2818,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:42.755" level="INFO">Typing text '55' into text field 'xpath=(//input[contains(@formcontrolname,'lada')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:42.754" endtime="20200306 11:59:43.146"></status>
+<msg timestamp="20200306 16:27:06.510" level="INFO">Typing text '55' into text field 'xpath=(//input[contains(@formcontrolname,'lada')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:06.509" endtime="20200306 16:27:06.912"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:42.754" endtime="20200306 11:59:43.146"></status>
+<status status="PASS" starttime="20200306 16:27:06.509" endtime="20200306 16:27:06.912"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -968,10 +2834,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:43.146" level="INFO">Typing text '5646342' into text field 'xpath=(//input[contains(@placeholder,'Teléfono fijo')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:43.146" endtime="20200306 11:59:43.560"></status>
+<msg timestamp="20200306 16:27:06.913" level="INFO">Typing text '5646342' into text field 'xpath=(//input[contains(@placeholder,'Teléfono fijo')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:06.912" endtime="20200306 16:27:07.337"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:43.146" endtime="20200306 11:59:43.560"></status>
+<status status="PASS" starttime="20200306 16:27:06.912" endtime="20200306 16:27:07.337"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -984,12 +2850,180 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:43.561" level="INFO">Typing text '23' into text field 'xpath=(//input[contains(@type,'text')])[8]'.</msg>
-<status status="PASS" starttime="20200306 11:59:43.560" endtime="20200306 11:59:43.955"></status>
+<msg timestamp="20200306 16:27:07.338" level="INFO">Typing text '23' into text field 'xpath=(//input[contains(@type,'text')])[8]'.</msg>
+<status status="PASS" starttime="20200306 16:27:07.337" endtime="20200306 16:27:07.724"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:43.560" endtime="20200306 11:59:43.955"></status>
+<status status="PASS" starttime="20200306 16:27:07.337" endtime="20200306 16:27:07.724"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:41.492" endtime="20200306 11:59:43.955"></status>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@type,'text')])[9]</arg>
+<arg>${fax}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:07.725" level="INFO">Typing text '45' into text field 'xpath=(//input[contains(@type,'text')])[9]'.</msg>
+<status status="PASS" starttime="20200306 16:27:07.725" endtime="20200306 16:27:08.115"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:07.724" endtime="20200306 16:27:08.115"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'correoElectronico')])[1]</arg>
+<arg>${email_uno}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:08.117" level="INFO">Typing text 'rodrigo@gmail.com1' into text field 'xpath=(//input[contains(@formcontrolname,'correoElectronico')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:08.116" endtime="20200306 16:27:08.597"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:08.115" endtime="20200306 16:27:08.597"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@placeholder,'ejemplo@dominio.com')])[2]</arg>
+<arg>${email_dos}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:08.598" level="INFO">Typing text 'alternativo@gmail.com1' into text field 'xpath=(//input[contains(@placeholder,'ejemplo@dominio.com')])[2]'.</msg>
+<status status="PASS" starttime="20200306 16:27:08.597" endtime="20200306 16:27:09.102"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:08.597" endtime="20200306 16:27:09.102"></status>
+</kw>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:27:09.102" endtime="20200306 16:27:09.204"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:09.102" endtime="20200306 16:27:09.204"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>1000</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:27:09.205" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:27:09.205" endtime="20200306 16:27:09.311"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:09.204" endtime="20200306 16:27:09.311"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]</arg>
+<arg>${actividad}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:09.312" level="INFO">Selecting options from selection list '//body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]' by label ELABORADOR.</msg>
+<status status="PASS" starttime="20200306 16:27:09.312" endtime="20200306 16:27:10.125"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:09.311" endtime="20200306 16:27:10.125"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:10.440" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:10.126" endtime="20200306 16:27:10.440"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:10.125" endtime="20200306 16:27:10.440"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//app-actividad-economica//div[2]//div[1]//select[1]</arg>
+<arg>${materia}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:10.440" level="INFO">Selecting options from selection list '//app-actividad-economica//div[2]//div[1]//select[1]' by label SALES PURAS ANTIMICROBIANAS.</msg>
+<status status="PASS" starttime="20200306 16:27:10.440" endtime="20200306 16:27:11.224"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:10.440" endtime="20200306 16:27:11.224"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:11.534" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:11.225" endtime="20200306 16:27:11.534"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:11.224" endtime="20200306 16:27:11.534"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//select[contains(@formcontrolname,'funcion')]</arg>
+<arg>${funcion}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:11.534" level="INFO">Selecting options from selection list '//select[contains(@formcontrolname,'funcion')]' by label ALMACENAR.</msg>
+<status status="PASS" starttime="20200306 16:27:11.534" endtime="20200306 16:27:12.348"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:11.534" endtime="20200306 16:27:12.348"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.8</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:13.163" level="INFO">Slept 800 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:12.348" endtime="20200306 16:27:13.163"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:12.348" endtime="20200306 16:27:13.163"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:13.163"></status>
 </kw>
 <kw name="${i} = 2" type="foritem">
 <kw name="Leer celda" library="recursos">
@@ -1010,11 +3044,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:43.956" level="INFO">${celldata} = juan</msg>
-<status status="PASS" starttime="20200306 11:59:43.956" endtime="20200306 11:59:43.956"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = juan</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
-<msg timestamp="20200306 11:59:43.956" level="INFO">${nombre} = juan</msg>
-<status status="PASS" starttime="20200306 11:59:43.955" endtime="20200306 11:59:43.956"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${nombre} = juan</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -1034,11 +3068,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:43.957" level="INFO">${celldata} = perez</msg>
-<status status="PASS" starttime="20200306 11:59:43.957" endtime="20200306 11:59:43.957"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = perez</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
-<msg timestamp="20200306 11:59:43.957" level="INFO">${ap} = perez</msg>
-<status status="PASS" starttime="20200306 11:59:43.956" endtime="20200306 11:59:43.957"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${ap} = perez</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -1058,11 +3092,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:43.958" level="INFO">${celldata} = chavez</msg>
-<status status="PASS" starttime="20200306 11:59:43.958" endtime="20200306 11:59:43.958"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = chavez</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
-<msg timestamp="20200306 11:59:43.958" level="INFO">${am} = chavez</msg>
-<status status="PASS" starttime="20200306 11:59:43.957" endtime="20200306 11:59:43.958"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${am} = chavez</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -1082,11 +3116,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:43.959" level="INFO">${celldata} = 45</msg>
-<status status="PASS" starttime="20200306 11:59:43.959" endtime="20200306 11:59:43.959"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = 45</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
-<msg timestamp="20200306 11:59:43.959" level="INFO">${lada} = 45</msg>
-<status status="PASS" starttime="20200306 11:59:43.958" endtime="20200306 11:59:43.959"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${lada} = 45</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -1106,11 +3140,11 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:43.960" level="INFO">${celldata} = 656576</msg>
-<status status="PASS" starttime="20200306 11:59:43.960" endtime="20200306 11:59:43.960"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = 656576</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
-<msg timestamp="20200306 11:59:43.960" level="INFO">${tel_fijo} = 656576</msg>
-<status status="PASS" starttime="20200306 11:59:43.959" endtime="20200306 11:59:43.960"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${tel_fijo} = 656576</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
 <kw name="Leer celda" library="recursos">
 <arguments>
@@ -1130,11 +3164,163 @@ Without any arguments.</msg>
 <assign>
 <var>${celldata}</var>
 </assign>
-<msg timestamp="20200306 11:59:43.961" level="INFO">${celldata} = 24</msg>
-<status status="PASS" starttime="20200306 11:59:43.961" endtime="20200306 11:59:43.961"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = 24</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
-<msg timestamp="20200306 11:59:43.961" level="INFO">${extension} = 24</msg>
-<status status="PASS" starttime="20200306 11:59:43.960" endtime="20200306 11:59:43.961"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${extension} = 24</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>7</arg>
+</arguments>
+<assign>
+<var>${fax}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = 23</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${fax} = 23</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>8</arg>
+</arguments>
+<assign>
+<var>${email_uno}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = rodrigo@gmail.com2</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${email_uno} = rodrigo@gmail.com2</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>9</arg>
+</arguments>
+<assign>
+<var>${email_dos}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = alternativo@gmail.com2</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${email_dos} = alternativo@gmail.com2</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${actividad}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = MAQUILADOR</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${actividad} = MAQUILADOR</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actividad}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:13.163" level="INFO">MAQUILADOR</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>11</arg>
+</arguments>
+<assign>
+<var>${materia}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = BIOLÓGICAS</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${materia} = BIOLÓGICAS</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>12</arg>
+</arguments>
+<assign>
+<var>${funcion}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${celldata} = DISTRIBUIR</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
+</kw>
+<msg timestamp="20200306 16:27:13.163" level="INFO">${funcion} = DISTRIBUIR</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.163"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1147,10 +3333,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:43.961" level="INFO">Typing text 'juan' into text field 'xpath=(//input[contains(@formcontrolname,'nombre')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:43.961" endtime="20200306 11:59:44.353"></status>
+<msg timestamp="20200306 16:27:13.163" level="INFO">Typing text 'juan' into text field 'xpath=(//input[contains(@formcontrolname,'nombre')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.565"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:43.961" endtime="20200306 11:59:44.353"></status>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:13.565"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1163,10 +3349,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:44.354" level="INFO">Typing text 'perez' into text field 'xpath=(//input[contains(@formcontrolname,'primerApellido')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:44.353" endtime="20200306 11:59:44.747"></status>
+<msg timestamp="20200306 16:27:13.566" level="INFO">Typing text 'perez' into text field 'xpath=(//input[contains(@formcontrolname,'primerApellido')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:13.565" endtime="20200306 16:27:13.952"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:44.353" endtime="20200306 11:59:44.747"></status>
+<status status="PASS" starttime="20200306 16:27:13.565" endtime="20200306 16:27:13.952"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1179,10 +3365,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:44.747" level="INFO">Typing text 'chavez' into text field 'xpath=(//input[contains(@formcontrolname,'segundoApellido')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:44.747" endtime="20200306 11:59:45.146"></status>
+<msg timestamp="20200306 16:27:13.953" level="INFO">Typing text 'chavez' into text field 'xpath=(//input[contains(@formcontrolname,'segundoApellido')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:13.952" endtime="20200306 16:27:14.341"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:44.747" endtime="20200306 11:59:45.146"></status>
+<status status="PASS" starttime="20200306 16:27:13.952" endtime="20200306 16:27:14.341"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1195,10 +3381,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:45.146" level="INFO">Typing text '45' into text field 'xpath=(//input[contains(@formcontrolname,'lada')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:45.146" endtime="20200306 11:59:45.538"></status>
+<msg timestamp="20200306 16:27:14.341" level="INFO">Typing text '45' into text field 'xpath=(//input[contains(@formcontrolname,'lada')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:14.341" endtime="20200306 16:27:14.713"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:45.146" endtime="20200306 11:59:45.538"></status>
+<status status="PASS" starttime="20200306 16:27:14.341" endtime="20200306 16:27:14.713"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1211,10 +3397,10 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:45.539" level="INFO">Typing text '656576' into text field 'xpath=(//input[contains(@placeholder,'Teléfono fijo')])[1]'.</msg>
-<status status="PASS" starttime="20200306 11:59:45.539" endtime="20200306 11:59:45.961"></status>
+<msg timestamp="20200306 16:27:14.714" level="INFO">Typing text '656576' into text field 'xpath=(//input[contains(@placeholder,'Teléfono fijo')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:14.714" endtime="20200306 16:27:15.106"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:45.539" endtime="20200306 11:59:45.961"></status>
+<status status="PASS" starttime="20200306 16:27:14.713" endtime="20200306 16:27:15.107"></status>
 </kw>
 <kw name="Texto" library="recursos">
 <arguments>
@@ -1227,23 +3413,1324 @@ Without any arguments.</msg>
 <arg>xpath=${arg1}</arg>
 <arg>${arg2}</arg>
 </arguments>
-<msg timestamp="20200306 11:59:45.962" level="INFO">Typing text '24' into text field 'xpath=(//input[contains(@type,'text')])[8]'.</msg>
-<status status="PASS" starttime="20200306 11:59:45.962" endtime="20200306 11:59:46.351"></status>
+<msg timestamp="20200306 16:27:15.107" level="INFO">Typing text '24' into text field 'xpath=(//input[contains(@type,'text')])[8]'.</msg>
+<status status="PASS" starttime="20200306 16:27:15.107" endtime="20200306 16:27:15.481"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:45.961" endtime="20200306 11:59:46.351"></status>
+<status status="PASS" starttime="20200306 16:27:15.107" endtime="20200306 16:27:15.481"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:43.955" endtime="20200306 11:59:46.351"></status>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@type,'text')])[9]</arg>
+<arg>${fax}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:15.482" level="INFO">Typing text '23' into text field 'xpath=(//input[contains(@type,'text')])[9]'.</msg>
+<status status="PASS" starttime="20200306 16:27:15.481" endtime="20200306 16:27:15.865"></status>
 </kw>
-<status status="PASS" starttime="20200306 11:59:41.491" endtime="20200306 11:59:46.351"></status>
+<status status="PASS" starttime="20200306 16:27:15.481" endtime="20200306 16:27:15.865"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'correoElectronico')])[1]</arg>
+<arg>${email_uno}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:15.866" level="INFO">Typing text 'rodrigo@gmail.com2' into text field 'xpath=(//input[contains(@formcontrolname,'correoElectronico')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:15.866" endtime="20200306 16:27:16.356"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:15.865" endtime="20200306 16:27:16.356"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@placeholder,'ejemplo@dominio.com')])[2]</arg>
+<arg>${email_dos}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:16.357" level="INFO">Typing text 'alternativo@gmail.com2' into text field 'xpath=(//input[contains(@placeholder,'ejemplo@dominio.com')])[2]'.</msg>
+<status status="PASS" starttime="20200306 16:27:16.357" endtime="20200306 16:27:16.850"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:16.356" endtime="20200306 16:27:16.850"></status>
+</kw>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:27:16.851" endtime="20200306 16:27:16.953"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:16.850" endtime="20200306 16:27:16.953"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>1000</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:27:16.954" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:27:16.953" endtime="20200306 16:27:17.059"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:16.953" endtime="20200306 16:27:17.060"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]</arg>
+<arg>${actividad}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:17.061" level="INFO">Selecting options from selection list '//body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]' by label MAQUILADOR.</msg>
+<status status="PASS" starttime="20200306 16:27:17.060" endtime="20200306 16:27:17.862"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:17.060" endtime="20200306 16:27:17.862"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:18.164" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:17.863" endtime="20200306 16:27:18.164"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:17.862" endtime="20200306 16:27:18.164"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//app-actividad-economica//div[2]//div[1]//select[1]</arg>
+<arg>${materia}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:18.165" level="INFO">Selecting options from selection list '//app-actividad-economica//div[2]//div[1]//select[1]' by label BIOLÓGICAS.</msg>
+<status status="PASS" starttime="20200306 16:27:18.165" endtime="20200306 16:27:19.010"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:18.164" endtime="20200306 16:27:19.011"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:19.312" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:19.011" endtime="20200306 16:27:19.312"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:19.011" endtime="20200306 16:27:19.312"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//select[contains(@formcontrolname,'funcion')]</arg>
+<arg>${funcion}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:19.312" level="INFO">Selecting options from selection list '//select[contains(@formcontrolname,'funcion')]' by label DISTRIBUIR.</msg>
+<status status="PASS" starttime="20200306 16:27:19.312" endtime="20200306 16:27:20.106"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:19.312" endtime="20200306 16:27:20.106"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.8</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:20.910" level="INFO">Slept 800 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:20.106" endtime="20200306 16:27:20.910"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:20.106" endtime="20200306 16:27:20.910"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:13.163" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>1</arg>
+</arguments>
+<assign>
+<var>${nombre}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = Carlos</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${nombre} = Carlos</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>2</arg>
+</arguments>
+<assign>
+<var>${ap}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = olmos</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${ap} = olmos</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>3</arg>
+</arguments>
+<assign>
+<var>${am}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = Salgado</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${am} = Salgado</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>4</arg>
+</arguments>
+<assign>
+<var>${lada}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = 23</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${lada} = 23</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>5</arg>
+</arguments>
+<assign>
+<var>${tel_fijo}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = 423423</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${tel_fijo} = 423423</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>6</arg>
+</arguments>
+<assign>
+<var>${extension}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = 12</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${extension} = 12</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>7</arg>
+</arguments>
+<assign>
+<var>${fax}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = 98</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${fax} = 98</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>8</arg>
+</arguments>
+<assign>
+<var>${email_uno}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = rodrigo@gmail.com3</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${email_uno} = rodrigo@gmail.com3</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>9</arg>
+</arguments>
+<assign>
+<var>${email_dos}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = alternativo@gmail.com3</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${email_dos} = alternativo@gmail.com3</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${actividad}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = ELABORADOR</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${actividad} = ELABORADOR</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actividad}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:20.910" level="INFO">ELABORADOR</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>11</arg>
+</arguments>
+<assign>
+<var>${materia}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = SALES PURAS ANTIMICROBIANAS</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${materia} = SALES PURAS ANTIMICROBIANAS</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>12</arg>
+</arguments>
+<assign>
+<var>${funcion}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${celldata} = ALMACENAR</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<msg timestamp="20200306 16:27:20.910" level="INFO">${funcion} = ALMACENAR</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:20.910"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'nombre')])[1]</arg>
+<arg>${nombre}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:20.910" level="INFO">Typing text 'Carlos' into text field 'xpath=(//input[contains(@formcontrolname,'nombre')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:21.311"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:21.311"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'primerApellido')])[1]</arg>
+<arg>${ap}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:21.312" level="INFO">Typing text 'olmos' into text field 'xpath=(//input[contains(@formcontrolname,'primerApellido')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:21.312" endtime="20200306 16:27:21.696"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:21.311" endtime="20200306 16:27:21.696"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'segundoApellido')])[1]</arg>
+<arg>${am}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:21.697" level="INFO">Typing text 'Salgado' into text field 'xpath=(//input[contains(@formcontrolname,'segundoApellido')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:21.697" endtime="20200306 16:27:22.088"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:21.696" endtime="20200306 16:27:22.088"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'lada')])[1]</arg>
+<arg>${lada}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:22.088" level="INFO">Typing text '23' into text field 'xpath=(//input[contains(@formcontrolname,'lada')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:22.088" endtime="20200306 16:27:22.460"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:22.088" endtime="20200306 16:27:22.460"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@placeholder,'Teléfono fijo')])[1]</arg>
+<arg>${tel_fijo}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:22.461" level="INFO">Typing text '423423' into text field 'xpath=(//input[contains(@placeholder,'Teléfono fijo')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:22.460" endtime="20200306 16:27:22.855"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:22.460" endtime="20200306 16:27:22.855"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@type,'text')])[8]</arg>
+<arg>${extension}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:22.856" level="INFO">Typing text '12' into text field 'xpath=(//input[contains(@type,'text')])[8]'.</msg>
+<status status="PASS" starttime="20200306 16:27:22.856" endtime="20200306 16:27:23.222"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:22.855" endtime="20200306 16:27:23.222"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@type,'text')])[9]</arg>
+<arg>${fax}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:23.223" level="INFO">Typing text '98' into text field 'xpath=(//input[contains(@type,'text')])[9]'.</msg>
+<status status="PASS" starttime="20200306 16:27:23.223" endtime="20200306 16:27:23.596"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:23.222" endtime="20200306 16:27:23.596"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'correoElectronico')])[1]</arg>
+<arg>${email_uno}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:23.597" level="INFO">Typing text 'rodrigo@gmail.com3' into text field 'xpath=(//input[contains(@formcontrolname,'correoElectronico')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:23.596" endtime="20200306 16:27:24.072"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:23.596" endtime="20200306 16:27:24.072"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@placeholder,'ejemplo@dominio.com')])[2]</arg>
+<arg>${email_dos}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:24.073" level="INFO">Typing text 'alternativo@gmail.com3' into text field 'xpath=(//input[contains(@placeholder,'ejemplo@dominio.com')])[2]'.</msg>
+<status status="PASS" starttime="20200306 16:27:24.073" endtime="20200306 16:27:24.569"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:24.072" endtime="20200306 16:27:24.569"></status>
+</kw>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:27:24.570" endtime="20200306 16:27:24.671"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:24.569" endtime="20200306 16:27:24.671"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>1000</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:27:24.673" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:27:24.672" endtime="20200306 16:27:24.778"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:24.671" endtime="20200306 16:27:24.778"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]</arg>
+<arg>${actividad}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:24.779" level="INFO">Selecting options from selection list '//body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]' by label ELABORADOR.</msg>
+<status status="PASS" starttime="20200306 16:27:24.779" endtime="20200306 16:27:25.592"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:24.778" endtime="20200306 16:27:25.592"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:25.893" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:25.593" endtime="20200306 16:27:25.893"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:25.592" endtime="20200306 16:27:25.893"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//app-actividad-economica//div[2]//div[1]//select[1]</arg>
+<arg>${materia}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:25.894" level="INFO">Selecting options from selection list '//app-actividad-economica//div[2]//div[1]//select[1]' by label SALES PURAS ANTIMICROBIANAS.</msg>
+<status status="PASS" starttime="20200306 16:27:25.893" endtime="20200306 16:27:26.693"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:25.893" endtime="20200306 16:27:26.693"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:26.996" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:26.694" endtime="20200306 16:27:26.996"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:26.693" endtime="20200306 16:27:26.996"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//select[contains(@formcontrolname,'funcion')]</arg>
+<arg>${funcion}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:26.997" level="INFO">Selecting options from selection list '//select[contains(@formcontrolname,'funcion')]' by label ALMACENAR.</msg>
+<status status="PASS" starttime="20200306 16:27:26.997" endtime="20200306 16:27:27.795"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:26.996" endtime="20200306 16:27:27.795"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.8</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:28.610" level="INFO">Slept 800 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:27.796" endtime="20200306 16:27:28.610"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:27.795" endtime="20200306 16:27:28.610"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:20.910" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>1</arg>
+</arguments>
+<assign>
+<var>${nombre}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = Erika</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${nombre} = Erika</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>2</arg>
+</arguments>
+<assign>
+<var>${ap}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = Paz</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${ap} = Paz</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>3</arg>
+</arguments>
+<assign>
+<var>${am}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = Lopez</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${am} = Lopez</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>4</arg>
+</arguments>
+<assign>
+<var>${lada}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = 45</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${lada} = 45</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>5</arg>
+</arguments>
+<assign>
+<var>${tel_fijo}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = 4243423</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${tel_fijo} = 4243423</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>6</arg>
+</arguments>
+<assign>
+<var>${extension}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = 25</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${extension} = 25</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>7</arg>
+</arguments>
+<assign>
+<var>${fax}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = 56</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${fax} = 56</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>8</arg>
+</arguments>
+<assign>
+<var>${email_uno}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = rodrigo@gmail.com4</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${email_uno} = rodrigo@gmail.com4</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>9</arg>
+</arguments>
+<assign>
+<var>${email_dos}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = alternativo@gmail.com4</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${email_dos} = alternativo@gmail.com4</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${actividad}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = ELABORADOR AUTO CONSUMO</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${actividad} = ELABORADOR AUTO CONSUMO</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actividad}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:28.610" level="INFO">ELABORADOR AUTO CONSUMO</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>11</arg>
+</arguments>
+<assign>
+<var>${materia}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = ALIMENTICIAS</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${materia} = ALIMENTICIAS</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Leer celda" library="recursos">
+<arguments>
+<arg>Hoja1</arg>
+<arg>${i}</arg>
+<arg>12</arg>
+</arguments>
+<assign>
+<var>${funcion}</var>
+</assign>
+<kw name="Cell Data" library="ReadData">
+<arguments>
+<arg>${hoja}</arg>
+<arg>${fila}</arg>
+<arg>${celda}</arg>
+</arguments>
+<assign>
+<var>${celldata}</var>
+</assign>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${celldata} = DISTRIBUIR</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<msg timestamp="20200306 16:27:28.610" level="INFO">${funcion} = DISTRIBUIR</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:28.610"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'nombre')])[1]</arg>
+<arg>${nombre}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:28.610" level="INFO">Typing text 'Erika' into text field 'xpath=(//input[contains(@formcontrolname,'nombre')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:29.008"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:29.008"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'primerApellido')])[1]</arg>
+<arg>${ap}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:29.009" level="INFO">Typing text 'Paz' into text field 'xpath=(//input[contains(@formcontrolname,'primerApellido')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:29.008" endtime="20200306 16:27:29.399"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:29.008" endtime="20200306 16:27:29.399"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'segundoApellido')])[1]</arg>
+<arg>${am}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:29.400" level="INFO">Typing text 'Lopez' into text field 'xpath=(//input[contains(@formcontrolname,'segundoApellido')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:29.400" endtime="20200306 16:27:29.785"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:29.399" endtime="20200306 16:27:29.785"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'lada')])[1]</arg>
+<arg>${lada}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:29.786" level="INFO">Typing text '45' into text field 'xpath=(//input[contains(@formcontrolname,'lada')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:29.786" endtime="20200306 16:27:30.162"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:29.785" endtime="20200306 16:27:30.162"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@placeholder,'Teléfono fijo')])[1]</arg>
+<arg>${tel_fijo}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:30.163" level="INFO">Typing text '4243423' into text field 'xpath=(//input[contains(@placeholder,'Teléfono fijo')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:30.162" endtime="20200306 16:27:30.556"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:30.162" endtime="20200306 16:27:30.556"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@type,'text')])[8]</arg>
+<arg>${extension}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:30.557" level="INFO">Typing text '25' into text field 'xpath=(//input[contains(@type,'text')])[8]'.</msg>
+<status status="PASS" starttime="20200306 16:27:30.557" endtime="20200306 16:27:30.928"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:30.556" endtime="20200306 16:27:30.928"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@type,'text')])[9]</arg>
+<arg>${fax}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:30.929" level="INFO">Typing text '56' into text field 'xpath=(//input[contains(@type,'text')])[9]'.</msg>
+<status status="PASS" starttime="20200306 16:27:30.928" endtime="20200306 16:27:31.299"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:30.928" endtime="20200306 16:27:31.299"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@formcontrolname,'correoElectronico')])[1]</arg>
+<arg>${email_uno}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:31.301" level="INFO">Typing text 'rodrigo@gmail.com4' into text field 'xpath=(//input[contains(@formcontrolname,'correoElectronico')])[1]'.</msg>
+<status status="PASS" starttime="20200306 16:27:31.300" endtime="20200306 16:27:31.794"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:31.299" endtime="20200306 16:27:31.794"></status>
+</kw>
+<kw name="Texto" library="recursos">
+<arguments>
+<arg>(//input[contains(@placeholder,'ejemplo@dominio.com')])[2]</arg>
+<arg>${email_dos}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:31.795" level="INFO">Typing text 'alternativo@gmail.com4' into text field 'xpath=(//input[contains(@placeholder,'ejemplo@dominio.com')])[2]'.</msg>
+<status status="PASS" starttime="20200306 16:27:31.794" endtime="20200306 16:27:32.331"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:31.794" endtime="20200306 16:27:32.331"></status>
+</kw>
+<kw name="Esperar Iniciar Forzar" library="recursos">
+<arguments>
+<arg>10</arg>
+</arguments>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${arg1} seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200306 16:27:32.331" endtime="20200306 16:27:32.433"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:32.331" endtime="20200306 16:27:32.433"></status>
+</kw>
+<kw name="Scroll" library="recursos">
+<arguments>
+<arg>0</arg>
+<arg>1000</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${arg1},${arg2})</arg>
+</arguments>
+<msg timestamp="20200306 16:27:32.434" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200306 16:27:32.433" endtime="20200306 16:27:32.541"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:32.433" endtime="20200306 16:27:32.541"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]</arg>
+<arg>${actividad}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:32.541" level="INFO">Selecting options from selection list '//body[contains(@class,'pace-done')]//div[@id='Formulario']//div//div//div[1]//div[1]//select[1]' by label ELABORADOR AUTO CONSUMO.</msg>
+<status status="PASS" starttime="20200306 16:27:32.541" endtime="20200306 16:27:33.345"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:32.541" endtime="20200306 16:27:33.345"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:33.646" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:33.346" endtime="20200306 16:27:33.646"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:33.345" endtime="20200306 16:27:33.647"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//app-actividad-economica//div[2]//div[1]//select[1]</arg>
+<arg>${materia}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:33.647" level="INFO">Selecting options from selection list '//app-actividad-economica//div[2]//div[1]//select[1]' by label ALIMENTICIAS.</msg>
+<status status="PASS" starttime="20200306 16:27:33.647" endtime="20200306 16:27:34.438"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:33.647" endtime="20200306 16:27:34.438"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.3</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:34.740" level="INFO">Slept 300 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:34.438" endtime="20200306 16:27:34.740"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:34.438" endtime="20200306 16:27:34.740"></status>
+</kw>
+<kw name="SLL" library="recursos">
+<arguments>
+<arg>//select[contains(@formcontrolname,'funcion')]</arg>
+<arg>${funcion}</arg>
+</arguments>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:34.741" level="INFO">Selecting options from selection list '//select[contains(@formcontrolname,'funcion')]' by label DISTRIBUIR.</msg>
+<status status="PASS" starttime="20200306 16:27:34.740" endtime="20200306 16:27:35.542"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:34.740" endtime="20200306 16:27:35.542"></status>
+</kw>
+<kw name="Dormir" library="recursos">
+<arguments>
+<arg>.8</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${arg1}</arg>
+</arguments>
+<msg timestamp="20200306 16:27:36.343" level="INFO">Slept 800 milliseconds</msg>
+<status status="PASS" starttime="20200306 16:27:35.543" endtime="20200306 16:27:36.343"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:35.543" endtime="20200306 16:27:36.343"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:28.610" endtime="20200306 16:27:36.343"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:05.227" endtime="20200306 16:27:36.343"></status>
+</kw>
+<kw name="Cerrar" library="recursos">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200306 16:27:36.344" endtime="20200306 16:27:38.474"></status>
+</kw>
+<status status="PASS" starttime="20200306 16:27:36.344" endtime="20200306 16:27:38.474"></status>
 </kw>
 <doc>Obtener valores desde hoja de Excel</doc>
 <tags>
 <tag>tg12</tag>
 </tags>
-<status status="PASS" starttime="20200306 11:59:23.326" endtime="20200306 11:59:46.352" critical="yes"></status>
+<status status="PASS" starttime="20200306 16:26:18.010" endtime="20200306 16:27:38.474" critical="yes"></status>
 </test>
 <doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
-<status status="PASS" starttime="20200306 11:59:22.109" endtime="20200306 11:59:46.354"></status>
+<status status="PASS" starttime="20200306 16:26:16.884" endtime="20200306 16:27:38.476"></status>
 </suite>
 <statistics>
 <total>
