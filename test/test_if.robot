@@ -3,7 +3,7 @@ Documentation   Casos de Prueba  CC-04-2019-AMTIF-OT04
 Library     String
 Library     ScreenCapLibrary
 Library     DateTime
-Resource    ./recursos.robot
+Resource    recursos.robot
 Resource    ./casos.robot
 Library     FakerLibrary
 Library     Dialogs
@@ -367,3 +367,37 @@ CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)
     \   Resultado   1   ${dir}/Terminan_casos.png   Termina los casos
     
 
+
+########### TEST CON VALORES DESDE EXCEL ###############
+CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)
+    [Tags]  tg12
+    [Documentation]     Obtener valores desde hoja de Excel
+    Esperar Iniciar ok    30  
+    Video Iniciar
+    ${claverfc} =    Aleatorio claverfc
+    Log     ${claverfc} 
+    Login   ${url}   ${navegador}
+    Tramite
+    #Datos Personales    ${claverfc}
+    : FOR    ${INDEX}    IN RANGE    1    1000
+    \   ${val}=     Run Keyword And Return Status  Datos Personales Excel     ${claverfc}
+    \   Log     ${val}
+    \   Dormir  1
+    \   Run Keyword If  '${val}'=='True'     Exit For Loop
+
+    ${rows}=   Leer numero de filas  Hoja1
+
+    : FOR  ${i}  IN RANGE     1  ${rows}+1
+    \   ${nombre}=   Leer celda  Hoja1  ${i}  1
+    \   ${ap}=   Leer celda  Hoja1  ${i}  2
+    \   ${am}=   Leer celda  Hoja1  ${i}  3
+    \   ${lada}=   Leer celda  Hoja1  ${i}  4
+    \   ${tel_fijo}=   Leer celda  Hoja1  ${i}  5
+    \   ${extension}=   Leer celda  Hoja1  ${i}  6
+    \   Texto   (//input[contains(@formcontrolname,'nombre')])[1]  ${nombre}
+    \   Texto   (//input[contains(@formcontrolname,'primerApellido')])[1]  ${ap}
+    \   Texto   (//input[contains(@formcontrolname,'segundoApellido')])[1]  ${am}
+    \   Texto   (//input[contains(@formcontrolname,'lada')])[1]  ${lada}
+    \   Texto   (//input[contains(@placeholder,'Teléfono fijo')])[1]  ${tel_fijo}
+    \   Texto   (//input[contains(@type,'text')])[8]  ${extension}
+    

@@ -56,7 +56,7 @@ Aleatorio Curp
     ${datetime} =	Convert Date  ${CurrentDate}  datetime
     ${tex} =    Generate Random String  2  [UPPER]
     ${num} =    Generate Random String  2  [NUMBERS]
-    [Return]     VINF810919HDflTD${num}
+    [Return]     GOHT810919HDflTD${num}
     	
     
 

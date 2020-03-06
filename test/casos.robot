@@ -138,6 +138,7 @@ Tramite
     Resultado  .2  ${dir}/Datos_personales.png  Datos Personales Ok  
     Click  //select[@formcontrolname='tipoPersona']
 
+
 Datos Personales
     Esperar Iniciar Forzar    10
     [Arguments]     ${claverfc}
@@ -170,6 +171,40 @@ Datos Personales
     Texto  //input[contains(@formcontrolname,'correoElectronicoAl')]   rodrigodrupal5@gmail.com
     Resultado  1  ${dir}/Personales.png  Datos Personales Ok
     Scroll  0  1000
+
+
+Datos Personales Excel
+    Esperar Iniciar Forzar    10
+    [Arguments]     ${claverfc}
+    ${curp} =  Aleatorio Curp
+    Click  //*[@id="Formulario"]/form/div[3]/div[1]/select/option[2]
+    Texto  (//input[contains(@formcontrolname,'curp')])[1]     ${curp}   
+    Scroll  0  400
+    Dormir  .2
+    Texto  //input[@formcontrolname='rfc']         ${claverfc}      
+    Dormir   2
+    Texto  //input[@formcontrolname='rfc']         ${claverfc} 
+    Dormir  1
+    Scroll  0  600
+    # Texto  (//input[@type='text'])[3]    YENNYELY NICOLE  
+    # Dormir  .2
+    # Texto  //input[@formcontrolname='primerApellido']   MONTENEGRO
+    # Dormir   .2
+    # Texto  (//input[contains(@formcontrolname,'segundoApellido')])[1]   GARCIA
+    # Dormir   .2
+    # Texto  (//input[contains(@formcontrolname,'lada')])[1]   777
+    # Dormir   .2
+    # Texto  (//input[contains(@placeholder,'Teléfono fijo')])[1]   7774567864
+    # Dormir   .2
+    # Texto  (//input[contains(@maxlength,'4')])[1]   245
+    # Dormir   .2
+    # Texto  (//input[contains(@type,'text')])[9]   345
+    # Dormir   .2
+    # Texto  (//input[contains(@formcontrolname,'correoElectronico')])[1]   rodrigodrupal1@gmail.com
+    # Dormir   .2
+    # Texto  //input[contains(@formcontrolname,'correoElectronicoAl')]   rodrigodrupal5@gmail.com
+    # Resultado  1  ${dir}/Personales.png  Datos Personales Ok
+    # Scroll  0  1000
 
     
 
