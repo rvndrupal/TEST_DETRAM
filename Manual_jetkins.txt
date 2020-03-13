@@ -139,3 +139,39 @@ https://pypi.org/project/robotframework-datadriver/
 --> pip install --upgrade robotframework-datadriver[XLS]
 
 
+##############JMeeter y Jenkins#########################
+8.-Patrones a Excluir.
+
+.*\.gif
+.*\.png
+.*\.jpg
+.*\.png
+.*\.css
+.*\.js
+
+
+Instalar pligin  Performance  Jmeter
+
+configurar el archivo user de JMeeter
+
+Video--> https://www.youtube.com/watch?v=E02iab7vZyg
+https://www.youtube.com/watch?v=E02iab7vZyg
+
+checar este mañana.   https://www.youtube.com/watch?v=eNbGcjRJpu0
+
+
+
+-->C:\JMETER\Software\apache-jmeter-5.2.1\bin  user.properties
+
+add--> jmeter.save.saveservice.output_format=xml
+
+
+-->PONER EN CONSOLA LA RUTA DEL BIN  cd  C:\JMETER\Software\apache-jmeter-5.2.1\bin
+
+--> jmeter -jjmeter.save.saveservice.output_format=xml -n -t   C:\JMETER\Software\apache-jmeter-5.2.1\bin\pruebas\AMTIF_B1.jmx -l  C:\JMETER\Software\apache-jmeter-5.2.1\bin\report.jtl
+
+
+
+##############Simular curp y rfc #####################
+
+http://webserver01.finatrade.mx/portalempleados/curp.aspx

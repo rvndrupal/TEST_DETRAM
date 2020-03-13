@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test If Copy 4 :: Casos de Prueba CC-04-2019-AMTIF-OT04                
+==============================================================================
+CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA... | FAIL |
+Element with locator 'xpath=//*[@id="radEncGood"]' not found.
+------------------------------------------------------------------------------
+Suites.Test If Copy 4 :: Casos de Prueba CC-04-2019-AMTIF-OT04        | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Test_detram\test\results\pabot_results\Suites.Test If Copy 4\output.xml

@@ -1,0 +1,16 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test If Copy 9 :: Casos de Prueba CC-04-2019-AMTIF-OT04                
+==============================================================================
+CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL) :: Obtene... | PASS |
+------------------------------------------------------------------------------
+Suites.Test If Copy 9 :: Casos de Prueba CC-04-2019-AMTIF-OT04        | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Test_detram\test\resultados_uno\pabot_results\Suites.Test If Copy 9\output.xml

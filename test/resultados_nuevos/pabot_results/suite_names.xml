@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200306 16:43:33.311" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test If Copy 10" source="C:\Test_detram\test\test_if copy 10.robot">
+<test id="s1-s1-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.253" endtime="20200306 16:43:34.253"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.252" endtime="20200306 16:43:34.253" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.253" endtime="20200306 16:43:34.253"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.253" endtime="20200306 16:43:34.254" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.254" endtime="20200306 16:43:34.254"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.254" endtime="20200306 16:43:34.254" critical="yes"></status>
+</test>
+<test id="s1-s1-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.255" endtime="20200306 16:43:34.255"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.255" endtime="20200306 16:43:34.255" critical="yes"></status>
+</test>
+<test id="s1-s1-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.256" endtime="20200306 16:43:34.256"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.255" endtime="20200306 16:43:34.256" critical="yes"></status>
+</test>
+<test id="s1-s1-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.257" endtime="20200306 16:43:34.257"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.256" endtime="20200306 16:43:34.257" critical="yes"></status>
+</test>
+<test id="s1-s1-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.257" endtime="20200306 16:43:34.257"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.257" endtime="20200306 16:43:34.258" critical="yes"></status>
+</test>
+<test id="s1-s1-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.258" endtime="20200306 16:43:34.258"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.258" endtime="20200306 16:43:34.258" critical="yes"></status>
+</test>
+<test id="s1-s1-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.259" endtime="20200306 16:43:34.259"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.259" endtime="20200306 16:43:34.259" critical="yes"></status>
+</test>
+<test id="s1-s1-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.260" endtime="20200306 16:43:34.260"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.259" endtime="20200306 16:43:34.260" critical="yes"></status>
+</test>
+<test id="s1-s1-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.261" endtime="20200306 16:43:34.261"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.260" endtime="20200306 16:43:34.261" critical="yes"></status>
+</test>
+<test id="s1-s1-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.262" endtime="20200306 16:43:34.262"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.261" endtime="20200306 16:43:34.262" critical="yes"></status>
+</test>
+<test id="s1-s1-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.263" endtime="20200306 16:43:34.263"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.263" endtime="20200306 16:43:34.263" critical="yes"></status>
+</test>
+<test id="s1-s1-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.264" endtime="20200306 16:43:34.264"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.263" endtime="20200306 16:43:34.264" critical="yes"></status>
+</test>
+<test id="s1-s1-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.265" endtime="20200306 16:43:34.265"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.264" endtime="20200306 16:43:34.265" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:33.342" endtime="20200306 16:43:34.265"></status>
+</suite>
+<suite id="s1-s2" name="Test If Copy 2" source="C:\Test_detram\test\test_if copy 2.robot">
+<test id="s1-s2-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.269" endtime="20200306 16:43:34.269" critical="yes"></status>
+</test>
+<test id="s1-s2-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284" critical="yes"></status>
+</test>
+<test id="s1-s2-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284" critical="yes"></status>
+</test>
+<test id="s1-s2-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284" critical="yes"></status>
+</test>
+<test id="s1-s2-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284" critical="yes"></status>
+</test>
+<test id="s1-s2-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.284" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.266" endtime="20200306 16:43:34.284"></status>
+</suite>
+<suite id="s1-s3" name="Test If Copy 3" source="C:\Test_detram\test\test_if copy 3.robot">
+<test id="s1-s3-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<test id="s1-s3-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.300" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.284" endtime="20200306 16:43:34.300"></status>
+</suite>
+<suite id="s1-s4" name="Test If Copy 4" source="C:\Test_detram\test\test_if copy 4.robot">
+<test id="s1-s4-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316" critical="yes"></status>
+</test>
+<test id="s1-s4-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316" critical="yes"></status>
+</test>
+<test id="s1-s4-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316" critical="yes"></status>
+</test>
+<test id="s1-s4-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316" critical="yes"></status>
+</test>
+<test id="s1-s4-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.316" critical="yes"></status>
+</test>
+<test id="s1-s4-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.331"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.316" endtime="20200306 16:43:34.331" critical="yes"></status>
+</test>
+<test id="s1-s4-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.331"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.331" critical="yes"></status>
+</test>
+<test id="s1-s4-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.331"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.331" critical="yes"></status>
+</test>
+<test id="s1-s4-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.331"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.331" critical="yes"></status>
+</test>
+<test id="s1-s4-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.331"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.331" endtime="20200306 16:43:34.335" critical="yes"></status>
+</test>
+<test id="s1-s4-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.335" endtime="20200306 16:43:34.335"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.335" endtime="20200306 16:43:34.335" critical="yes"></status>
+</test>
+<test id="s1-s4-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336" critical="yes"></status>
+</test>
+<test id="s1-s4-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336" critical="yes"></status>
+</test>
+<test id="s1-s4-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336" critical="yes"></status>
+</test>
+<test id="s1-s4-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.300" endtime="20200306 16:43:34.336"></status>
+</suite>
+<suite id="s1-s5" name="Test If Copy 5" source="C:\Test_detram\test\test_if copy 5.robot">
+<test id="s1-s5-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336" critical="yes"></status>
+</test>
+<test id="s1-s5-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.336" critical="yes"></status>
+</test>
+<test id="s1-s5-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<test id="s1-s5-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.352" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.336" endtime="20200306 16:43:34.352"></status>
+</suite>
+<suite id="s1-s6" name="Test If Copy 6" source="C:\Test_detram\test\test_if copy 6.robot">
+<test id="s1-s6-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.367" critical="yes"></status>
+</test>
+<test id="s1-s6-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.367" endtime="20200306 16:43:34.383" critical="yes"></status>
+</test>
+<test id="s1-s6-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.352" endtime="20200306 16:43:34.383"></status>
+</suite>
+<suite id="s1-s7" name="Test If Copy 7" source="C:\Test_detram\test\test_if copy 7.robot">
+<test id="s1-s7-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383" critical="yes"></status>
+</test>
+<test id="s1-s7-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383" critical="yes"></status>
+</test>
+<test id="s1-s7-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383" critical="yes"></status>
+</test>
+<test id="s1-s7-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.383" critical="yes"></status>
+</test>
+<test id="s1-s7-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<test id="s1-s7-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.398" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.383" endtime="20200306 16:43:34.398"></status>
+</suite>
+<suite id="s1-s8" name="Test If Copy 8" source="C:\Test_detram\test\test_if copy 8.robot">
+<test id="s1-s8-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.419" endtime="20200306 16:43:34.419"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.418" endtime="20200306 16:43:34.419" critical="yes"></status>
+</test>
+<test id="s1-s8-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.420" endtime="20200306 16:43:34.420"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.419" endtime="20200306 16:43:34.420" critical="yes"></status>
+</test>
+<test id="s1-s8-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.420" endtime="20200306 16:43:34.420"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.420" endtime="20200306 16:43:34.420" critical="yes"></status>
+</test>
+<test id="s1-s8-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.421" endtime="20200306 16:43:34.421"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.421" endtime="20200306 16:43:34.421" critical="yes"></status>
+</test>
+<test id="s1-s8-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.422" endtime="20200306 16:43:34.422"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.422" endtime="20200306 16:43:34.422" critical="yes"></status>
+</test>
+<test id="s1-s8-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.423" endtime="20200306 16:43:34.423"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.422" endtime="20200306 16:43:34.423" critical="yes"></status>
+</test>
+<test id="s1-s8-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.424" endtime="20200306 16:43:34.424"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.423" endtime="20200306 16:43:34.424" critical="yes"></status>
+</test>
+<test id="s1-s8-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.424" endtime="20200306 16:43:34.425"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.424" endtime="20200306 16:43:34.425" critical="yes"></status>
+</test>
+<test id="s1-s8-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.425" endtime="20200306 16:43:34.425"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.425" endtime="20200306 16:43:34.425" critical="yes"></status>
+</test>
+<test id="s1-s8-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.426" endtime="20200306 16:43:34.426"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.426" endtime="20200306 16:43:34.426" critical="yes"></status>
+</test>
+<test id="s1-s8-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.427" endtime="20200306 16:43:34.427"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.427" endtime="20200306 16:43:34.427" critical="yes"></status>
+</test>
+<test id="s1-s8-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.428" endtime="20200306 16:43:34.428"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.427" endtime="20200306 16:43:34.428" critical="yes"></status>
+</test>
+<test id="s1-s8-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.429" endtime="20200306 16:43:34.429"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.428" endtime="20200306 16:43:34.429" critical="yes"></status>
+</test>
+<test id="s1-s8-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.430" endtime="20200306 16:43:34.430"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.429" endtime="20200306 16:43:34.430" critical="yes"></status>
+</test>
+<test id="s1-s8-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.430" endtime="20200306 16:43:34.430"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.430" endtime="20200306 16:43:34.430" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.398" endtime="20200306 16:43:34.431"></status>
+</suite>
+<suite id="s1-s9" name="Test If Copy 9" source="C:\Test_detram\test\test_if copy 9.robot">
+<test id="s1-s9-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.444" endtime="20200306 16:43:34.444"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.443" endtime="20200306 16:43:34.444" critical="yes"></status>
+</test>
+<test id="s1-s9-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.444" endtime="20200306 16:43:34.444"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.444" endtime="20200306 16:43:34.445" critical="yes"></status>
+</test>
+<test id="s1-s9-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.445" endtime="20200306 16:43:34.445"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.445" endtime="20200306 16:43:34.445" critical="yes"></status>
+</test>
+<test id="s1-s9-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.446" endtime="20200306 16:43:34.446"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.446" endtime="20200306 16:43:34.446" critical="yes"></status>
+</test>
+<test id="s1-s9-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.447" endtime="20200306 16:43:34.447"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.446" endtime="20200306 16:43:34.447" critical="yes"></status>
+</test>
+<test id="s1-s9-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.448" endtime="20200306 16:43:34.448"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.447" endtime="20200306 16:43:34.448" critical="yes"></status>
+</test>
+<test id="s1-s9-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.448" endtime="20200306 16:43:34.449"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.448" endtime="20200306 16:43:34.449" critical="yes"></status>
+</test>
+<test id="s1-s9-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.450" endtime="20200306 16:43:34.450"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.449" endtime="20200306 16:43:34.450" critical="yes"></status>
+</test>
+<test id="s1-s9-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.451" endtime="20200306 16:43:34.451"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.450" endtime="20200306 16:43:34.451" critical="yes"></status>
+</test>
+<test id="s1-s9-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.451" endtime="20200306 16:43:34.452" critical="yes"></status>
+</test>
+<test id="s1-s9-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452" critical="yes"></status>
+</test>
+<test id="s1-s9-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452" critical="yes"></status>
+</test>
+<test id="s1-s9-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452" critical="yes"></status>
+</test>
+<test id="s1-s9-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452" critical="yes"></status>
+</test>
+<test id="s1-s9-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.433" endtime="20200306 16:43:34.452"></status>
+</suite>
+<suite id="s1-s10" name="Test If Copy" source="C:\Test_detram\test\test_if copy.robot">
+<test id="s1-s10-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.452" critical="yes"></status>
+</test>
+<test id="s1-s10-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.467" endtime="20200306 16:43:34.467"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.468" critical="yes"></status>
+</test>
+<test id="s1-s10-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.468" endtime="20200306 16:43:34.468"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.468" endtime="20200306 16:43:34.468" critical="yes"></status>
+</test>
+<test id="s1-s10-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.469" endtime="20200306 16:43:34.469"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.469" endtime="20200306 16:43:34.469" critical="yes"></status>
+</test>
+<test id="s1-s10-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.470" endtime="20200306 16:43:34.470"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.469" endtime="20200306 16:43:34.470" critical="yes"></status>
+</test>
+<test id="s1-s10-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.471" endtime="20200306 16:43:34.471"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.470" endtime="20200306 16:43:34.471" critical="yes"></status>
+</test>
+<test id="s1-s10-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.472" endtime="20200306 16:43:34.472"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.471" endtime="20200306 16:43:34.472" critical="yes"></status>
+</test>
+<test id="s1-s10-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.474" endtime="20200306 16:43:34.474"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.473" endtime="20200306 16:43:34.474" critical="yes"></status>
+</test>
+<test id="s1-s10-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.475" endtime="20200306 16:43:34.475"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.475" endtime="20200306 16:43:34.476" critical="yes"></status>
+</test>
+<test id="s1-s10-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.476" endtime="20200306 16:43:34.477"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.476" endtime="20200306 16:43:34.477" critical="yes"></status>
+</test>
+<test id="s1-s10-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.478" endtime="20200306 16:43:34.478"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.477" endtime="20200306 16:43:34.478" critical="yes"></status>
+</test>
+<test id="s1-s10-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.479" endtime="20200306 16:43:34.479"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.478" endtime="20200306 16:43:34.479" critical="yes"></status>
+</test>
+<test id="s1-s10-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.480" endtime="20200306 16:43:34.480"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.480" endtime="20200306 16:43:34.480" critical="yes"></status>
+</test>
+<test id="s1-s10-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.482" endtime="20200306 16:43:34.482"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.481" endtime="20200306 16:43:34.482" critical="yes"></status>
+</test>
+<test id="s1-s10-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.483" endtime="20200306 16:43:34.483"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.482" endtime="20200306 16:43:34.484" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.452" endtime="20200306 16:43:34.484"></status>
+</suite>
+<suite id="s1-s11" name="Test If" source="C:\Test_detram\test\test_if.robot">
+<test id="s1-s11-t1" name="CC00 SOLICITUD DE VARIABLES">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.499" endtime="20200306 16:43:34.499"></status>
+</kw>
+<doc>Solicitud de Variables</doc>
+<tags>
+<tag>tg00</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.498" endtime="20200306 16:43:34.499" critical="yes"></status>
+</test>
+<test id="s1-s11-t2" name="CC001 TRAMITES-0T4 (TRAMITES 018 A)(CHROME LOGIN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.500" endtime="20200306 16:43:34.500"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A (Login)</doc>
+<tags>
+<tag>tg01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.500" endtime="20200306 16:43:34.500" critical="yes"></status>
+</test>
+<test id="s1-s11-t3" name="CC002 TRAMITES-0T4 (TRAMITES 018 A)(CHROME TRAMITE)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.501" endtime="20200306 16:43:34.501"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A</doc>
+<tags>
+<tag>tg02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.501" endtime="20200306 16:43:34.501" critical="yes"></status>
+</test>
+<test id="s1-s11-t4" name="CC003 TRAMITES-0T4 (TRAMITES 018 A)(CHROME ACTIVIDAD ECONÓMICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.502" endtime="20200306 16:43:34.502"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A ACTIVIDAD ECONÓMICA</doc>
+<tags>
+<tag>tg03</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.502" endtime="20200306 16:43:34.502" critical="yes"></status>
+</test>
+<test id="s1-s11-t5" name="CC004 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO FISCAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.503" endtime="20200306 16:43:34.503"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO FISCAL</doc>
+<tags>
+<tag>tg04</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.503" endtime="20200306 16:43:34.503" critical="yes"></status>
+</test>
+<test id="s1-s11-t6" name="CC005 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO PLANTA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.504" endtime="20200306 16:43:34.504"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO PLANTA</doc>
+<tags>
+<tag>tg05</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.504" endtime="20200306 16:43:34.504" critical="yes"></status>
+</test>
+<test id="s1-s11-t7" name="CC006 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DOMICILIO ALMACÉN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.505" endtime="20200306 16:43:34.505"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DOMICILIO ALMACÉN</doc>
+<tags>
+<tag>tg06</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.505" endtime="20200306 16:43:34.505" critical="yes"></status>
+</test>
+<test id="s1-s11-t8" name="CC007 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS REPRESENTANTE LEGAL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.506" endtime="20200306 16:43:34.506"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS REPRESENTANTE LEGAL</doc>
+<tags>
+<tag>tg07</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.505" endtime="20200306 16:43:34.506" critical="yes"></status>
+</test>
+<test id="s1-s11-t9" name="CC008 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DATOS ADICIONALES)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.507" endtime="20200306 16:43:34.507"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DATOS ADICIONALES</doc>
+<tags>
+<tag>tg08</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.506" endtime="20200306 16:43:34.507" critical="yes"></status>
+</test>
+<test id="s1-s11-t10" name="CC009 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS DOCUMENTOS ANEXOS)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.508" endtime="20200306 16:43:34.508"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS DOCUMENTOS ANEXOS</doc>
+<tags>
+<tag>tg09</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.507" endtime="20200306 16:43:34.508" critical="yes"></status>
+</test>
+<test id="s1-s11-t11" name="CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.509" endtime="20200306 16:43:34.509"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A DATOS FIRMA ELECTRONICA</doc>
+<tags>
+<tag>tg10</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.508" endtime="20200306 16:43:34.509" critical="yes"></status>
+</test>
+<test id="s1-s11-t12" name="CC001 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.510" endtime="20200306 16:43:34.510"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN</doc>
+<tags>
+<tag>rd01</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.509" endtime="20200306 16:43:34.511" critical="yes"></status>
+</test>
+<test id="s1-s11-t13" name="CC002 TRAMITES-0T07 (TRAMITES OTO7)(CHROME REASIGNACIÓN DE DICTAMEN PRUEBA-04)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.512" endtime="20200306 16:43:34.512"></status>
+</kw>
+<doc>TRAMITES OTO7 REASIGNACIÓN DE DICTAMEN PRUEBA-04</doc>
+<tags>
+<tag>rd02</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.511" endtime="20200306 16:43:34.512" critical="yes"></status>
+</test>
+<test id="s1-s11-t14" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(CHROME MULTIPLES TEST)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.513" endtime="20200306 16:43:34.513"></status>
+</kw>
+<doc>PRUEBA TRAMITE 018 A MULTIPLES TEST</doc>
+<tags>
+<tag>tg11</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.512" endtime="20200306 16:43:34.513" critical="yes"></status>
+</test>
+<test id="s1-s11-t15" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:43:34.514" endtime="20200306 16:43:34.514"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:43:34.514" endtime="20200306 16:43:34.514" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:43:34.487" endtime="20200306 16:43:34.515"></status>
+</suite>
+<status status="PASS" starttime="20200306 16:43:33.326" endtime="20200306 16:43:34.518"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="165" fail="0">Critical Tests</stat>
+<stat pass="165" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="11" fail="0">rd01</stat>
+<stat pass="11" fail="0">rd02</stat>
+<stat pass="11" fail="0">tg00</stat>
+<stat pass="11" fail="0">tg01</stat>
+<stat pass="11" fail="0">tg02</stat>
+<stat pass="11" fail="0">tg03</stat>
+<stat pass="11" fail="0">tg04</stat>
+<stat pass="11" fail="0">tg05</stat>
+<stat pass="11" fail="0">tg06</stat>
+<stat pass="11" fail="0">tg07</stat>
+<stat pass="11" fail="0">tg08</stat>
+<stat pass="11" fail="0">tg09</stat>
+<stat pass="11" fail="0">tg10</stat>
+<stat pass="11" fail="0">tg11</stat>
+<stat pass="11" fail="0">tg12</stat>
+</tag>
+<suite>
+<stat pass="165" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="15" fail="0" id="s1-s1" name="Test If Copy 10">Suites.Test If Copy 10</stat>
+<stat pass="15" fail="0" id="s1-s2" name="Test If Copy 2">Suites.Test If Copy 2</stat>
+<stat pass="15" fail="0" id="s1-s3" name="Test If Copy 3">Suites.Test If Copy 3</stat>
+<stat pass="15" fail="0" id="s1-s4" name="Test If Copy 4">Suites.Test If Copy 4</stat>
+<stat pass="15" fail="0" id="s1-s5" name="Test If Copy 5">Suites.Test If Copy 5</stat>
+<stat pass="15" fail="0" id="s1-s6" name="Test If Copy 6">Suites.Test If Copy 6</stat>
+<stat pass="15" fail="0" id="s1-s7" name="Test If Copy 7">Suites.Test If Copy 7</stat>
+<stat pass="15" fail="0" id="s1-s8" name="Test If Copy 8">Suites.Test If Copy 8</stat>
+<stat pass="15" fail="0" id="s1-s9" name="Test If Copy 9">Suites.Test If Copy 9</stat>
+<stat pass="15" fail="0" id="s1-s10" name="Test If Copy">Suites.Test If Copy</stat>
+<stat pass="15" fail="0" id="s1-s11" name="Test If">Suites.Test If</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

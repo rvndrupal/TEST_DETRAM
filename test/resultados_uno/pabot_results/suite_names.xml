@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.6 on win32)" generated="20200306 16:56:05.855" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test If Copy 10" source="C:\Test_detram\test\test_if copy 10.robot">
+<test id="s1-s1-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.808" endtime="20200306 16:56:06.808"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.808" endtime="20200306 16:56:06.808" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:05.870" endtime="20200306 16:56:06.808"></status>
+</suite>
+<suite id="s1-s2" name="Test If Copy 2" source="C:\Test_detram\test\test_if copy 2.robot">
+<test id="s1-s2-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.828" endtime="20200306 16:56:06.828"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.827" endtime="20200306 16:56:06.828" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.808" endtime="20200306 16:56:06.828"></status>
+</suite>
+<suite id="s1-s3" name="Test If Copy 3" source="C:\Test_detram\test\test_if copy 3.robot">
+<test id="s1-s3-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.838" endtime="20200306 16:56:06.838"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.838" endtime="20200306 16:56:06.838" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.829" endtime="20200306 16:56:06.838"></status>
+</suite>
+<suite id="s1-s4" name="Test If Copy 4" source="C:\Test_detram\test\test_if copy 4.robot">
+<test id="s1-s4-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.849" endtime="20200306 16:56:06.849"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.848" endtime="20200306 16:56:06.849" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.839" endtime="20200306 16:56:06.849"></status>
+</suite>
+<suite id="s1-s5" name="Test If Copy 5" source="C:\Test_detram\test\test_if copy 5.robot">
+<test id="s1-s5-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.861" endtime="20200306 16:56:06.861"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.860" endtime="20200306 16:56:06.861" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.850" endtime="20200306 16:56:06.861"></status>
+</suite>
+<suite id="s1-s6" name="Test If Copy 6" source="C:\Test_detram\test\test_if copy 6.robot">
+<test id="s1-s6-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.872" endtime="20200306 16:56:06.872"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.872" endtime="20200306 16:56:06.872" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.862" endtime="20200306 16:56:06.874"></status>
+</suite>
+<suite id="s1-s7" name="Test If Copy 7" source="C:\Test_detram\test\test_if copy 7.robot">
+<test id="s1-s7-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.876" endtime="20200306 16:56:06.876"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.876" endtime="20200306 16:56:06.876" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.874" endtime="20200306 16:56:06.876"></status>
+</suite>
+<suite id="s1-s8" name="Test If Copy 8" source="C:\Test_detram\test\test_if copy 8.robot">
+<test id="s1-s8-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.891" endtime="20200306 16:56:06.891"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.891" endtime="20200306 16:56:06.891" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.876" endtime="20200306 16:56:06.891"></status>
+</suite>
+<suite id="s1-s9" name="Test If Copy 9" source="C:\Test_detram\test\test_if copy 9.robot">
+<test id="s1-s9-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.891" endtime="20200306 16:56:06.891"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.891" endtime="20200306 16:56:06.891" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.891" endtime="20200306 16:56:06.891"></status>
+</suite>
+<suite id="s1-s10" name="Test If Copy" source="C:\Test_detram\test\test_if copy.robot">
+<test id="s1-s10-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.907" endtime="20200306 16:56:06.907"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.907" endtime="20200306 16:56:06.907" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.891" endtime="20200306 16:56:06.907"></status>
+</suite>
+<suite id="s1-s11" name="Test If" source="C:\Test_detram\test\test_if.robot">
+<test id="s1-s11-t1" name="CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200306 16:56:06.922" endtime="20200306 16:56:06.922"></status>
+</kw>
+<doc>Obtener valores desde hoja de Excel</doc>
+<tags>
+<tag>tg12</tag>
+</tags>
+<status status="PASS" starttime="20200306 16:56:06.922" endtime="20200306 16:56:06.922" critical="yes"></status>
+</test>
+<doc>Casos de Prueba CC-04-2019-AMTIF-OT04</doc>
+<status status="PASS" starttime="20200306 16:56:06.907" endtime="20200306 16:56:06.922"></status>
+</suite>
+<status status="PASS" starttime="20200306 16:56:05.855" endtime="20200306 16:56:06.922"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="11" fail="0">Critical Tests</stat>
+<stat pass="11" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="11" fail="0">tg12</stat>
+</tag>
+<suite>
+<stat pass="11" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Test If Copy 10">Suites.Test If Copy 10</stat>
+<stat pass="1" fail="0" id="s1-s2" name="Test If Copy 2">Suites.Test If Copy 2</stat>
+<stat pass="1" fail="0" id="s1-s3" name="Test If Copy 3">Suites.Test If Copy 3</stat>
+<stat pass="1" fail="0" id="s1-s4" name="Test If Copy 4">Suites.Test If Copy 4</stat>
+<stat pass="1" fail="0" id="s1-s5" name="Test If Copy 5">Suites.Test If Copy 5</stat>
+<stat pass="1" fail="0" id="s1-s6" name="Test If Copy 6">Suites.Test If Copy 6</stat>
+<stat pass="1" fail="0" id="s1-s7" name="Test If Copy 7">Suites.Test If Copy 7</stat>
+<stat pass="1" fail="0" id="s1-s8" name="Test If Copy 8">Suites.Test If Copy 8</stat>
+<stat pass="1" fail="0" id="s1-s9" name="Test If Copy 9">Suites.Test If Copy 9</stat>
+<stat pass="1" fail="0" id="s1-s10" name="Test If Copy">Suites.Test If Copy</stat>
+<stat pass="1" fail="0" id="s1-s11" name="Test If">Suites.Test If</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

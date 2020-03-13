@@ -15,7 +15,8 @@ Library     Dialogs
 #robot -d resultados  test.robot
 #Vinr770919hdfltd00
 #robot -d resultados  tes*.robot
-#pabot --processes 20 --outputdir resultados_uno  TEST/test*.robot
+#pabot --processes 5 -i tg12 --outputdir resultados_uno  test*.robot
+#pabot --processes 7 -i tg10 -d results  test*.robot
 
 
 ***Variables***
@@ -59,7 +60,7 @@ Aleatorio Curp
     ${datetime} =	Convert Date  ${CurrentDate}  datetime
     ${tex} =    Generate Random String  2  [UPPER]
     ${num} =    Generate Random String  2  [NUMBERS]
-    [Return]     GOHJ810919HDflTD${num}
+    [Return]     GARM810919HDflTD${num}
     	
     
 
@@ -401,6 +402,7 @@ CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)
     \   Log     ${actividad}
     \   ${materia}=   Leer celda  Hoja1  ${i}  11
     \   ${funcion}=   Leer celda  Hoja1  ${i}  12
+    \   ${cp}=   Leer celda  Hoja1  ${i}  13
     \   Texto   (//input[contains(@formcontrolname,'nombre')])[1]  ${nombre}
     \   Texto   (//input[contains(@formcontrolname,'primerApellido')])[1]  ${ap}
     \   Texto   (//input[contains(@formcontrolname,'segundoApellido')])[1]  ${am}
@@ -418,6 +420,7 @@ CC011 TRAMITES-0T4 (TRAMITES 018 A)(VALORES DESDE EXCEL)
     \   Dormir    .3
     \   SLL     //select[contains(@formcontrolname,'funcion')]        ${funcion}
     \   Dormir      .8
+    \   Texto   (//input[@autocomplete='NÑp'])[1]   ${cp}
     recursos.Cerrar
   
     

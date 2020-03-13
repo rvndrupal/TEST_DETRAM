@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test If Copy 2 :: Casos de Prueba CC-04-2019-AMTIF-OT04                
+==============================================================================
+CC010 TRAMITES-0T4 (TRAMITES 018 A)(CHROME DATOS FIRMA ELECTRONICA... | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <button id="radEncGood" title="Buena" name="A_A" value="1" onclick="selectButton(&quot;radEncGood&quot;,&quot;A_A&quot;);goToView(&quot;Q_A&quot;,&quot;A_A&quot;)" class="btn-special">...</button> is not clickable at point (581, 189). Other element would receive the click: <div _ngcontent-mxi-c2="" class="overlay" style="background-color: rgba(51, 51, 51, 0.8); position: fixed;">...</div>
+  (Session info: chrome=80.0.3987.132)
+------------------------------------------------------------------------------
+Suites.Test If Copy 2 :: Casos de Prueba CC-04-2019-AMTIF-OT04        | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Test_detram\test\results\pabot_results\Suites.Test If Copy 2\output.xml
